@@ -1,7 +1,7 @@
 import {Title, Paragraph} from "../components/Title"
 import PageLayout from "../components/PageLayout"
 import {Header} from "../components/Header"
-const Gospel = () => {
+const Page = () => {
     return(
         <>
         <Header/>
@@ -30,4 +30,4 @@ const Gospel = () => {
     )
 }
 
-export default Gospel;
+export default Page;
