@@ -125,6 +125,7 @@ nav{
 
 
 .page{
+  position:relative;
   padding-right:100px;
   padding-left:30px;
   margin-left:100;
@@ -132,10 +133,15 @@ max-width: 600;
 margin:auto;
   display:grid;
   grid-template-columns: 1fr;
-
+z-index:1;
+background-color:rgba(10,10,10,0.6);
+backdrop-filter: blur(20px);
+border-radius: 15px;
 }
 
 .page-title-wrapper{
+position:sticky;
+top:10px;
 padding-inline:100px;
 padding-top:300px;
 background-color:#101010;
@@ -148,15 +154,20 @@ background-color:#101010;
   background-image: linear-gradient(45deg,var(--pink),var(--purple) );
   color: transparent;
   background-clip: text;
+  text-align: center;
 }
 
 .card-wrapper{
   display:flex;
   flex-flow:row wrap;
-  justify-content:center;
   gap:30px;
   padding-inline:30px;
   padding-block:30px;
+  border-top:solid 1px #202020;
+}
+
+.center{
+  justify-content:center;
 }
 
 .card{
@@ -182,24 +193,34 @@ background-color:#101010;
   color:#909090
 }
 
-button{
+.button-big, .button-small{
   background:transparent;
   border:none;
   outline:none;
-  background-image: linear-gradient(45deg,var(--pink),var(--purple) );
+  background-image: linear-gradient(45deg,var(--purple),var(--pink) );
   color:transparent;
   background-clip: text;
   padding-inline:0px;
   cursor:pointer;
+  font-size:var(--normal);
+font-weight:600;
+  font-family:lex;
+  position:relative;
+  display:flex;
+  gap:5px;
+  
 }
 
 button:hover{
   color:#ffffff;
 }
 
-button::after{
-  content:' >';
-
+.button-big::after{
+  content:url(assets/right.svg);
+  width:15px;
+  height:15px;
+  position:relative;
+  right:0px;
 }
 
 h2{
@@ -241,6 +262,9 @@ i{
   -webkit-transition:all 0.2s ease-in-out;
   transition:all 0.2s ease-in-out;
 
+}
+a{
+  text-decoration: none;;
 }
 
 a:hover{

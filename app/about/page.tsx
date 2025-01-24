@@ -1,6 +1,7 @@
 import { Title } from "../components/Title"
 import {Header} from "../components/Header"
 import PageLayout from "../components/PageLayout"
+import {Card, CardWrapper} from "../components/Card"
 const Page = () => {
    return(
     <>
@@ -21,8 +22,18 @@ const Page = () => {
 
 <p>In 2002 the Mc Leans went back to the USA and Pastor Johann Blackman surrendered to Pastor the church and he is still the pastor of this church.</p>
 
-<h2>Our Statement of Faith</h2>
-<p>Our Statement of Faith does not cover the full extent of what we believe. However, these are a good outline of the doctrines our church holds to. We base all our beliefs on the authority of the Bible and the principles of God`&apos`s Word.</p>
+<CardWrapper center={false}>
+   <Card 
+   title="Our Statement of Faith" 
+   desc="Our Statement of Faith does not cover the full extent of what we believe but here is a good outline of the doctrines our church holds to."
+   bname="What we believe"
+   blink="/beliefs"
+   visible={true}
+   />
+</CardWrapper>
+
+
+
     </PageLayout>
     </>
    )
