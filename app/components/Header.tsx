@@ -1,5 +1,7 @@
+'use client'
 import React from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import Image from "next/image"
 
 export const Header = () => {
@@ -21,8 +23,9 @@ type NavProps ={
     title:string;
 }
 export const NavLink = (props: NavProps) => {
+    const pathname = usePathname()
     return(
-        <Link href={props.link}>{props.title}</Link>
+        <Link className={pathname === props.link ? 'active-link': 'def'} href={props.link}>{props.title}</Link>
     )
 }
 

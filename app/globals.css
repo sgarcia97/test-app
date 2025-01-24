@@ -7,6 +7,7 @@
   --lilac:#dda0dd;
   --yellow:#f0e68c;
   --normal:1rem;
+  --medium:1.3rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -196,9 +197,19 @@ p{
   line-height:2rem;
 }
 
-a:link, a:visited, a:active{
+.def{
   color:#dadada;
   text-decoration:none;
+  -webkit-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
+}
+
+.active-link{
+  color:var(--pink);
+  font-size:var(--medium);
+  text-decoration: none;
+  -webkit-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
 }
 
 a:hover{
