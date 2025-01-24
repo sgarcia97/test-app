@@ -6,8 +6,12 @@
   --purple:#6a5acd;
   --lilac:#dda0dd;
   --yellow:#f0e68c;
+
+  --small:0.8rem;
   --normal:1rem;
   --medium:1.3rem;
+  --large:1.6rem;
+  --elarge:2rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -121,10 +125,14 @@ nav{
 
 
 .page{
-  padding-inline:100px;
-max-width: 800;
+  padding-right:100px;
+  padding-left:30px;
+  margin-left:100;
+max-width: 600;
+margin:auto;
   display:grid;
   grid-template-columns: 1fr;
+
 }
 
 .page-title-wrapper{
@@ -144,6 +152,7 @@ background-color:#101010;
 
 .card-wrapper{
   display:flex;
+  flex-flow:row wrap;
   justify-content:center;
   gap:30px;
   padding-inline:30px;
@@ -193,10 +202,31 @@ button::after{
 
 }
 
+h2{
+  font-weight:300;
+  font-size:var(--large);
+  color:var(--pink);
+}
+
+h3{
+  font-weight:200;
+  margin-bottom:0px;
+}
+
 p{
   line-height:2rem;
 }
 
+p span{
+  display:block;
+  font-weight:200;
+  font-size:var(--small);
+}
+
+i{
+  font-weight:200;
+  font-size:var(--small);
+}
 .def{
   color:#dadada;
   text-decoration:none;
