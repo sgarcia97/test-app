@@ -46,7 +46,7 @@ nav{
   justify-content: center;
   color:#ffffff;
   background-color:#151515;
-  gap:20;
+  gap:20px;
   z-index:5;
 }
 

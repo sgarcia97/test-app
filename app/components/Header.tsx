@@ -16,8 +16,11 @@ export const Header = () => {
     )
 }
 
-
-export const NavLink = (props) => {
+type NavProps ={
+    link:string;
+    title:string;
+}
+export const NavLink = (props: NavProps) => {
     return(
         <Link href={props.link}>{props.title}</Link>
     )
