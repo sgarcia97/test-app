@@ -205,11 +205,12 @@ p{
 }
 
 .active-link{
-  color:var(--pink);
+  color:var(--pink) !important;
   font-size:var(--medium);
   text-decoration: none;
   -webkit-transition:all 0.2s ease-in-out;
   transition:all 0.2s ease-in-out;
+
 }
 
 a:hover{
