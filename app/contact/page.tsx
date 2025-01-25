@@ -3,7 +3,6 @@ import {Header} from "../components/Header"
 import {Card, CardWrapper} from "../components/Card"
 import PageLayout from "../components/PageLayout"
 import {Title} from "../components/Title"
-import Whatsapp from "../../public/whatsapp.svg"
 
 const Page = () => {
     return(
@@ -15,13 +14,11 @@ const Page = () => {
                 <Card 
                 title="Call Us" 
                 desc="(868) 689-0908"
-                img={Whatsapp}
                 visible={false}
                 />
                 <Card 
                 title="WhatsApp" 
                 desc="(868) 689-0908" 
-                img={Whatsapp}
                 visible={false}
                 />
                 <Card 
