@@ -44,7 +44,8 @@ body {
 nav{
   position:sticky;
   top:0px;
-  padding:30px;
+  padding-inline:30px;
+  padding-block:25px;
   display:flex;
   flex-flow:row nowrap;
   align-items:center;
@@ -55,7 +56,21 @@ nav{
   z-index:5;
 }
 
+.menu-button{
+display:flex;
+align-items: center;
+opacity:0.5;
+transition: all 0.2s ease-in-out;
+cursor:pointer;
+}
 
+.menu-button:hover{
+  opacity:1;
+}
+
+.menu-icon{
+font-size:40px;
+}
 
 .landing-wrapper{
   padding:30px;
@@ -226,6 +241,43 @@ align-items: center;
   color:#909090
 }
 
+.modal{
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  width:400px;
+  z-index:10;
+  background-color:#000000;
+  border-radius:0px 15px 15px 0px;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+.close{
+  border:solid 2px #fff;
+  padding:10px;
+  display:flex;
+  flex-flow:column nowrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transition:all 0.2s ease-in-out;
+  opacity:0.5;
+  cursor:pointer;
+}
+
+.close:hover{
+  opacity:1;
+}
+
+.close-icon{
+  font-size:30px;
+}
+
 .button-big, .button-small{
   background:transparent;
   border:none;
@@ -313,7 +365,7 @@ a:hover{
 
 @media screen and (max-width: 600) {
   nav{
-    overflow-x:auto;
+    justify-content: space-between;
   }
 
   .page{
@@ -337,5 +389,11 @@ a:hover{
   .card{
     width:auto;
     aspect-ratio:unset;
+  }
+
+
+  .modal{
+    right:0px;
+    width:auto;
   }
 }

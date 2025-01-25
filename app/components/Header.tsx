@@ -1,21 +1,53 @@
 'use client'
-import React from "react"
+import { useState} from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import Image from "next/image"
+import { CgMenuRight } from "react-icons/cg";
+import { TfiClose } from "react-icons/tfi";
+
+
 
 export const Header = () => {
+
+    const [modal, setModal] = useState(false);
+
+    function handleModal(){
+        setModal(true)
+    }
+
     return(
+        <>
         <nav className="nav">
+            EBB Church
+        <div onClick={handleModal} className="menu-button"> <CgMenuRight className="menu-icon" /></div>
         
-        <NavLink link="/" title="Home"/>
-        <NavLink link="/about" title="About"/>
-        <NavLink link="/beliefs" title="Beliefs"/>
-        <NavLink link="/beliefs/gospel" title="The Gospel"/>
-        <NavLink link="/ministries" title="Ministry"/>
-        <NavLink link="/live" title="Live"/>
-        <NavLink link="/contact" title="Contact"/>
         </nav>
+        <Modall showModal={modal} set={setModal} />
+        </>
+    )
+}
+
+type ModalProps = {
+    showModal:boolean;
+    set:any;
+}
+export const Modall = (props: ModalProps) => {    
+    return(
+        <>
+        {
+            props.showModal && <div className="modal">
+                <NavLink link="/" title="Home"/>
+                <NavLink link="/about" title="About"/>
+                <NavLink link="/beliefs" title="Beliefs"/>
+                <NavLink link="/beliefs/gospel" title="The Gospel"/>
+                <NavLink link="/ministries" title="Ministry"/>
+                <NavLink link="/live" title="Live"/>
+                <NavLink link="/contact" title="Contact"/>
+                <div className="close" onClick={()=>{props.set(false)}}><TfiClose className="close-icon"/></div>
+            </div>
+        }
+        </>
     )
 }
 
