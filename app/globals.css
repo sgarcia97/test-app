@@ -370,7 +370,7 @@ a:hover{
 
   .page{
     margin-top:-34px;
-    padding-inline:15px;
+    padding-inline:20px;
   }
 
   .page-title-wrapper{
@@ -385,6 +385,8 @@ a:hover{
   .card-wrapper{
     display:grid;
     grid-template-columns: 1fr;
+    padding-inline:15px;
+    gap:15px;
   }
 
   .card{
