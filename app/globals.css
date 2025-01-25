@@ -385,8 +385,12 @@ a:hover{
   .card-wrapper{
     display:grid;
     grid-template-columns: 1fr;
-    padding-inline:15px;
-    gap:15px;
+    padding-inline:20px;
+    gap:20px;
+  }
+  
+  .page .card-wrapper{
+    padding-inline:0px;
   }
 
   .card{
