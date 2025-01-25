@@ -5,7 +5,7 @@ import {BigButton} from "./Buttons"
 type CardProp = {
     title:string;
     desc:string;
-    img?:string;
+    img?:any;
     bname?:string;
     blink?:string;
     visible:boolean;
@@ -16,9 +16,9 @@ export const Card = (props: CardProp) => {
         <>
         <div className="card">
             {
-                props.img ? <Image width={50} height={50} alt="" className="card-image" src={props.img}/> : <div></div>
+                props.img ? props.img : ''
             }
-            <div>
+            <div className="card-content">
             <div className="card-title">{props.title}</div>
             <div className="card-desc">{props.desc}</div>
             

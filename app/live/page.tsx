@@ -1,11 +1,11 @@
 import Image from "next/image";
-import {Header} from "../components/Header"
+import Template from "../components/Template"
 
 export default function Page() {
   return (
     
-    <>
-      <Header/>
-    </>
+   <Template title="Live">
+    <p></p>
+    </Template>
   );
 }

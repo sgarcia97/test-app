@@ -1,3 +1,5 @@
+import { LuChurch } from "react-icons/lu";
+
 type TitleProp = {
     title:string;
 }
@@ -5,6 +7,7 @@ type TitleProp = {
 export const Title = (props:TitleProp) => {
     return(
         <div className="page-title-wrapper">
+            <LuChurch className="page-title-icon" />
         <div className="page-title">{props.title}</div>
         </div>
     )

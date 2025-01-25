@@ -9,9 +9,9 @@
 
   --small:1rem;
   --normal:1.2rem;
-  --medium:1.5rem;
-  --large:1.8rem;
-  --elarge:2.2rem;
+  --medium:1.6rem;
+  --large:2.0rem;
+  --elarge:2.4rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,12 +48,14 @@ nav{
   display:flex;
   flex-flow:row nowrap;
   align-items:center;
-  justify-content: center;
+  justify-content: flex-start;
   color:#ffffff;
   background-color:#151515;
   gap:20px;
   z-index:5;
 }
+
+
 
 .landing-wrapper{
   padding:30px;
@@ -147,8 +149,11 @@ nav{
 position:sticky;
 top:10px;
 padding-inline:100px;
-padding-top:300px;
+padding-top:150px;
 background-color:#101010;
+display:flex;
+flex-flow:column nowrap;
+align-items: center;
 }
 
 .page-title{
@@ -161,6 +166,11 @@ background-color:#101010;
   text-align: center;
 }
 
+.page-title-icon{
+  font-size:6rem;
+  color:#202020;
+}
+
 .card-wrapper{
   display:flex;
   flex-flow:row wrap;
@@ -168,6 +178,21 @@ background-color:#101010;
   padding-inline:30px;
   padding-block:30px;
   border-top:solid 1px #202020;
+}
+
+.card-content{
+  display:grid;
+  gap:10px;
+}
+
+.icon{
+  font-size:60px;
+  color:#505050
+}
+
+.icon-small{
+  font-size:40px;
+  color:#505050
 }
 
 .center{
@@ -236,7 +261,12 @@ h2{
   font-weight:300;
   font-size:var(--large);
   color:var(--pink);
+  display:flex;
+  align-items: center;
+  gap:10px;
 }
+
+
 
 h3{
   font-weight:200;
@@ -278,4 +308,34 @@ a{
 
 a:hover{
   color:#ffffff;
+}
+
+
+@media screen and (max-width: 600) {
+  nav{
+    overflow-x:auto;
+  }
+
+  .page{
+    margin-top:-40px;
+  }
+
+  .page-title-wrapper{
+    padding-inline:30px;
+    padding-top:100px;
+  }
+
+  .page-title{
+    font-size:5rem;
+  }
+
+  .card-wrapper{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+
+  .card{
+    width:auto;
+    aspect-ratio:unset;
+  }
 }

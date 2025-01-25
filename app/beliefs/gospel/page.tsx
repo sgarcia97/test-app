@@ -1,12 +1,9 @@
-import {Title, Paragraph} from "../../components/Title"
-import PageLayout from "../../components/PageLayout"
-import {Header} from "../../components/Header"
+import Template from "../../components/Template"
+
 const Page = () => {
-    return(
-        <>
-        <Header/>
-        <Title title="Gospel"/>
-        <PageLayout>
+   return(
+
+    <Template title="Gospel">
         
             <h2>What is the Gospel?</h2>
             <p>The word “gospel” literally means the “good news”, and it is this news that Christians are commanded to spread to the entire world. “Go ye into all the world, and preach the gospel to every creature.” Mark 16:15 But what exactly is that good news?</p>
@@ -25,8 +22,7 @@ const Page = () => {
 
             <p>That is the power of the gospel when it is received, but it will fall on deaf ears. Many will hear and refuse to believe. It is still the duty of the Christian to give the gospel to all. When we understand its power, we will understand the necessity of giving the gospel faithfully, frequently, and properly, missing none of its three parts- that Jesus died for our sins, was buried, and rose again. And He lives still today.</p>
        
-        </PageLayout>
-        </>
+        </Template>
     )
 }
 
