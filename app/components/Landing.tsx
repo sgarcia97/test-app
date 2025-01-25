@@ -11,6 +11,7 @@ const Landing = (props) => {
             <div className="landing-content">
                     <div className="landing-title">{props.title}</div>
                     <div className="landing-subtitle">{props.subtitle}</div>
+                    <div className="landing-desc">{props.desc}</div>
                 </div>
         </div>
     )
