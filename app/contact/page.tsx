@@ -10,13 +10,15 @@ const Page = () => {
         <Title title="Contact"/>
         <CardWrapper center={true}>
                 <Card 
-                title="Men's Ministry" 
-                desc="Let us help you get started quickly with our helpful resources" 
+                title="Call Us" 
+                desc="(868) 689-0908"
+                img="phone-call"
                 visible={false}
                 />
                 <Card 
-                title="Women's Ministry" 
+                title="WhatsApp" 
                 desc="Learn more about the gospel and what it means to be saved" 
+                img="whatsapp"
                 visible={false}
                 />
                 <Card 

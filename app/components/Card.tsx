@@ -16,7 +16,7 @@ export const Card = (props: CardProp) => {
         <>
         <div className="card">
             {
-                props.img && <Image alt="" src={props.img}/> 
+                props.img && <Image width={30} height={30} alt="" className="card-image" src={`../assets/${props.img}.svg`}/> 
             }
             <div className="card-title">{props.title}</div>
             <div className="card-desc">{props.desc}</div>

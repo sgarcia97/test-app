@@ -7,11 +7,11 @@
   --lilac:#dda0dd;
   --yellow:#f0e68c;
 
-  --small:0.8rem;
-  --normal:1rem;
-  --medium:1.3rem;
-  --large:1.6rem;
-  --elarge:2rem;
+  --small:1rem;
+  --normal:1.2rem;
+  --medium:1.5rem;
+  --large:1.8rem;
+  --elarge:2.2rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -134,8 +134,8 @@ nav{
   display:grid;
   grid-template-columns: 1fr;
   z-index:1;
-  background-color:rgba(10,10,10,0.6);
-  backdrop-filter: blur(20px);
+  background-color:rgba(10,10,10,1);
+  box-shadow:1px 1px 20px 0px rgba(10,10,10,0.4);
   border-radius: 15px;
 }
 
@@ -184,6 +184,10 @@ background-color:#101010;
   padding-bottom:30px;
 }
 
+.card-image{
+  width:30px;
+}
+
 .card-title{
   font-weight:200;
   font-size:1.5rem;
@@ -203,7 +207,7 @@ background-color:#101010;
   padding-inline:0px;
   cursor:pointer;
   font-size:var(--normal);
-font-weight:600;
+font-weight:400;
   font-family:lex;
   position:relative;
   display:flex;
