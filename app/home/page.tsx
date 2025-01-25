@@ -11,7 +11,9 @@ export default function Page() {
   return (
     <>
       <Header/>
-      <Landing title="Making a Difference" subtitle="with the Gospel"/>
+      <Landing 
+        title="25 Years Making a Difference" 
+        subtitle="with the Gospel"/>
       <CardWrapper center={true}>
         <Card 
         title="New Here?" 
