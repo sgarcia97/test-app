@@ -11,7 +11,7 @@ const Page = () => {
         <Title title="ministries"/>
         <PageLayout>
             <p className="page-subtitle">We have a wide variety of ministries for you get involved in. God ahs called us to serve in whatever capacity we would and there is no better place to start than allowing Jesus to take the helm of our lives. Get involved.</p>
-        <CardWrapper center={true}>
+            <CardWrapper center={true}>
                 <Card 
                 title="Men's Ministry" 
                 desc="Let us help you get started quickly with our helpful resources" 

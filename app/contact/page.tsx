@@ -34,7 +34,6 @@ const Page = () => {
                 desc="Start watching our services which are streamed live every Sunday and Tuesday" 
                 visible={false}
                 />
-                
               </CardWrapper>
               </PageLayout>
         </>
