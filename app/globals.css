@@ -23,12 +23,12 @@
 
 @font-face {
   font-family: jr;
-  src: url(assets/fonts/Jost-VariableFont_wght.ttf);
+  src: url(../public/fonts/Jost-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: lex;
-  src: url(assets/fonts/LexendDeca-VariableFont_wght.ttf);
+  src: url(../public/fonts/LexendDeca-VariableFont_wght.ttf);
 }
 
 body {
@@ -80,7 +80,7 @@ nav{
   bottom:0px;
   left:0px;
   right:0px;
-  background:url(assets/back1.jpg);
+  background:url(../public/back1.jpg);
   background-size:cover;
   background-position:center;
   transform:skew(0deg,5deg);
@@ -128,15 +128,21 @@ nav{
   position:relative;
   padding-right:50px;
   padding-left:50px;
+  padding-block:50px;
   margin-left:100;
-  max-width:600px;
+  max-width:620px;
   margin:auto;
+  margin-top:-50px;
   display:grid;
   grid-template-columns: 1fr;
   z-index:1;
-  background-color:rgba(10,10,10,1);
-  box-shadow:1px 1px 20px 0px rgba(10,10,10,0.4);
+  background-color:#101010;
+  box-shadow:1px -1px 20px 0px rgba(0,0,0,0.8);
   border-radius: 15px;
+}
+
+.page-subtitle{
+  text-align: center;
 }
 
 .page-title-wrapper{
@@ -175,13 +181,13 @@ background-color:#101010;
   gap:10px;
   position:relative;
   width:200px;
-  height:250px;
-  align-content: end;
+  aspect-ratio: 1/1;
+  align-content: space-between;
   border-radius:15px;
-  border:solid 1px #303030;
+  border:solid 1px #252525;
   background-color:#101010;
   padding-inline:30px;
-  padding-bottom:30px;
+  padding-block:30px;
 }
 
 .card-image{
@@ -211,6 +217,7 @@ font-weight:400;
   font-family:lex;
   position:relative;
   display:flex;
+  align-items: center;
   gap:5px;
   
 }
@@ -220,7 +227,7 @@ button:hover{
 }
 
 .button-big::after{
-  content:url(assets/right.svg);
+  content:url(../public/right.svg);
   width:15px;
   height:15px;
   position:relative;

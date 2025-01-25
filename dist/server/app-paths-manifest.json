@@ -1,0 +1,10 @@
+{
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/live/page": "app/live/page.js",
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/beliefs/gospel/page": "app/beliefs/gospel/page.js",
+  "/ministries/page": "app/ministries/page.js",
+  "/beliefs/page": "app/beliefs/page.js"
+}

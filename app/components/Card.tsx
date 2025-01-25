@@ -16,11 +16,14 @@ export const Card = (props: CardProp) => {
         <>
         <div className="card">
             {
-                props.img && <Image width={30} height={30} alt="" className="card-image" src={`../assets/${props.img}.svg`}/> 
+                props.img ? <Image width={50} height={50} alt="" className="card-image" src={props.img}/> : <div></div>
             }
+            <div>
             <div className="card-title">{props.title}</div>
             <div className="card-desc">{props.desc}</div>
+            
             <BigButton title={props.bname && props.bname} link={props.blink && props.blink} isVisible={props.visible}/>
+            </div>
         </div>
         </>
     )
