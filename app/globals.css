@@ -370,6 +370,7 @@ a:hover{
 
   .page{
     margin-top:-34px;
+    padding-inline:15px;
   }
 
   .page-title-wrapper{
@@ -390,7 +391,6 @@ a:hover{
     width:auto;
     aspect-ratio:unset;
   }
-
 
   .modal{
     right:0px;
