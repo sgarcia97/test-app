@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: "./dist", // Changes the build output directory to `./dist/`.
+    //distDir: "./dist", // Changes the build output directory to `./dist/`.
     webpack(config) {
       config.module.rules.push({
         test: /\.svg$/i,
