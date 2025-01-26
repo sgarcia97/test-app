@@ -16,25 +16,25 @@ const Page = () => {
                 <Card 
                 img={<BsPersonStanding className="icon-small"/>}
                 title="Men's Ministry" 
-                desc="Let us help you get started quickly with our helpful resources" 
+                desc="As men, we are called upon to be leaders in our homes, communities, and the church. This ministry seeks to empower men to live up to the potential God wants men to be." 
                 visible={false}
                 />
                 <Card 
                 img={<BsPersonStandingDress className="icon-small" />}
                 title="Women's Ministry" 
-                desc="Learn more about the gospel and what it means to be saved" 
+                desc="The Proverbs 31 woman is the image women should be in their homes, workplaces, church and to their family." 
                 visible={false}
                 />
                 <Card 
                 img={<FaPeopleRoof className="icon-small"/>}
                 title="Visitation Ministry" 
-                desc="We are located at the corner of Dass and Nimblette Street, Enterprise, Chaguanas" 
+                desc="We are called upon to be the salt and light of the esrth and to carry the gospel to every creature. Join us on Saturdays as we spread the good news of Jesus Christ in our communities." 
                 visible={false}
                 />
                 <Card 
                 img={<TiMediaFastForwardOutline className="icon-small" />}
                 title="Media Ministry" 
-                desc="Start watching our services which are streamed live every Sunday and Tuesday" 
+                desc="This ministry seeks to glorify God through the use of technology in propagating the gospel through the global media." 
                 visible={false}
                 />
                 <Card 
