@@ -75,6 +75,7 @@ font-size:40px;
 .landing-wrapper{
   padding:30px;
   position:relative;
+  overflow:hidden;
 }
 
 .landing-img{
@@ -88,7 +89,7 @@ font-size:40px;
   flex-flow:column nowrap;
   justify-content: flex-end;
   aspect-ratio: 1/1;
-  background-color:#252525;
+  background-color:#151515;
 }
 
 .landing-img::before{
@@ -101,7 +102,7 @@ font-size:40px;
   background:url(../public/back1.jpg);
   background-size:cover;
   background-position:center;
-  transform:rotate(20deg);
+  transform:rotate(10deg);
   border-radius: 20px;
 
 }
@@ -115,7 +116,7 @@ font-size:40px;
   right:0px;
   border:solid 2px #ffffff;
   opacity:0.1;
-  transform:skew(0deg,5deg);
+  transform:rotate(-5deg);
   border-radius:20px;
 }
 
