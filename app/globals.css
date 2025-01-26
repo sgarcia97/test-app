@@ -294,7 +294,7 @@ align-items: center;
   padding-inline:0px;
   cursor:pointer;
   font-size:var(--normal);
-font-weight:400;
+  font-weight:400;
   font-family:lex;
   position:relative;
   display:flex;
@@ -324,7 +324,9 @@ h2{
   gap:10px;
 }
 
-
+h2-icon{
+  font-size: var(--large) !important;
+}
 
 h3{
   font-weight:200;
