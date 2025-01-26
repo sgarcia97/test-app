@@ -18,7 +18,7 @@ const Page = () => {
 
         <p>I John 5:7 &quot;For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.We believe in the triune God existing in three persons; Father, Son and Holy Spirit, and that each personality is eternal in being, identical in essence, equal in power and glory, and has the same attributes and perfections <span >(Matt. 28: 19-20, John 1:1-2, 14, Deut. 6:4)</span></p>
 
-        <h2><BiBible />The Lord Jesus Christ and Salvation</h2>
+        <h2><BiBible className="h2-icon" />The Lord Jesus Christ and Salvation</h2>
         <h3>Virgin Birth</h3>
         <p>We believe that Jesus Christ was begotten by the Holy Spirit in a miraculous manner; born of Mary, a virgin, as no other person was ever born or can ever be born of a woman. He is the Son of God, God the Son, and the Son of Man.
         <span >(Genesis 3:15, Isaiah 7:14, Matthew 1:18-25, Matthew 16:13-16)</span></p>
@@ -69,6 +69,7 @@ const Page = () => {
 
         <p>
             <span >NB: The Scripture references are representative; not exhaustive.</span>
+            <span>Information sourced from the Fundamental Baptist Mission of Trinidad and Tobago.</span>
         </p>
 
         </Template>
