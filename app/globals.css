@@ -88,6 +88,7 @@ font-size:40px;
   flex-flow:column nowrap;
   justify-content: flex-end;
   aspect-ratio: 1/1;
+  background-color:#252525;
 }
 
 .landing-img::before{
@@ -100,8 +101,8 @@ font-size:40px;
   background:url(../public/back1.jpg);
   background-size:cover;
   background-position:center;
-  transform:skew(0deg,5deg);
-  border-radius: 15px;
+  transform:rotate(20deg);
+  border-radius: 20px;
 
 }
 
