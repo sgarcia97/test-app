@@ -343,6 +343,7 @@ p span{
   display:block;
   font-weight:200;
   font-size:var(--small);
+  line-height:25px;
 }
 
 i{
