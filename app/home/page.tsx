@@ -32,7 +32,7 @@ export default function Page() {
         title="Watch our Services Online" 
         img={<FiYoutube className="icon-small"/>}
         desc="Start watching our services which are streamed live every Sunday and Tuesday" 
-        blink="https://www.youtube.com/@enterprisebiblebaptistchur8389" 
+        blink="/live" 
         bname="Watch now" visible={true}/>
       </CardWrapper>
     </>
