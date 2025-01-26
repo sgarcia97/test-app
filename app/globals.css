@@ -342,7 +342,7 @@ p{
 p span{
   display:block;
   font-weight:200;
-  padding-top:20px;
+  padding-top:15px;
   font-size:var(--small);
   line-height:25px;
 }
