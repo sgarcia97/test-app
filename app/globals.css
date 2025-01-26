@@ -244,7 +244,8 @@ align-items: center;
 }
 
 .card-desc{
-  color:#909090
+  color:#909090;
+  font-weight:300;
 }
 
 .modal{
