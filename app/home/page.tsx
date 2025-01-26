@@ -14,12 +14,12 @@ export default function Page() {
       <Landing 
         title="25 Years Making a Difference" 
         subtitle="with the Gospel"
-        desc="For 25 years we have laboured as a church to shine as lights in our community so that everyone has the opportunity to hear and experience the good news of Jesus Christ"/>
+        desc="For 25 years we have laboured as a church to shine as lights in our community so that everyone has the opportunity to hear and experience the good news of Jesus Christ."/>
       <CardWrapper center={true}>
         <Card 
         title="New Here?" 
         img={<LuPersonStanding className="icon-small"/>}
-        desc="Let us help you get started quickly with our helpful resources" bname="Get Started" blink="/new" visible={true}/>
+        desc="A warm welcome to Enterprise Bible Baptist Church. Let us help you get started quickly with our helpful resources" bname="Get Started" blink="/new" visible={true}/>
         <Card 
         title="What is the Gospel?" 
         img={<BiBible className="icon-small"/>}
