@@ -20,7 +20,7 @@ const Page = () => {
             <p>At the moment of belief, the lost soul is saved and is changed. Their eternal destination changes and their spirit, which was dead in trespasses and sins, is made alive (Ephesians 2:1). The Holy Spirit lives inside them and seals them (Ephesians 1:13). They are kept in the hand of God (John 10:29). They cannot lose their new spiritual adoption and new spiritual life. Their relationship with God changes. They are no longer a child of the devil but a child of God (John 1:12). All of their sins are washed away in the blood of Jesus Christ- all sins past, present and future. There is no longer any condemnation possible for them (Romans 8:1).</p>
   
 
-            <p>That is the power of the gospel when it is received, but it will fall on deaf ears. Many will hear and refuse to believe. It is still the duty of the Christian to give the gospel to all. When we understand its power, we will understand the necessity of giving the gospel faithfully, frequently, and properly, missing none of its three parts- that Jesus died for our sins, was buried, and rose again. And He lives still today.</p>
+            <p>That is the power of the gospel when it is received, but it will fall on deaf ears. Many will hear and refuse to believe. It is still the duty of the Christian to give the gospel to all. When we understand its power, we will understand the necessity of giving the gospel faithfully, frequently, and properly, missing none of its three parts- that Jesus died for our sins, was buried, and rose again. And He lives still today.<span>Sourced from www.bethelfbt.org</span></p>
        
         </Template>
     )
