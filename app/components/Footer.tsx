@@ -1,3 +1,4 @@
+"use client"
 import {useState} from "react"
 type Footerprop = {
 
@@ -9,11 +10,10 @@ const Footer = (props: Footerprop) => {
     let y = d.getFullYear();
     setYear(y);
     return(
-        <>
+      
         <div className="footer">
             <div>Copyright &copy; {year} Enterprise Bible Baptist Church. All rights reserved.</div>
         </div>
-        </>
     )
 }
 
