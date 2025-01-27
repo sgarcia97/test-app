@@ -153,29 +153,33 @@ display:flex;
 flex-flow:row nowrap;
 align-items: center;
 justify-content: center;
-gap:5px;
+gap:10px;
 padding-inline:20px;
 padding-bottom:20px;
+}
+
+.countdown-title{
+  text-align:center;
 }
 
 .count{
   display:flex;
   flex-flow:column nowrap;
   justify-content: center;
-  border:solid 1px #303030;
-  border-radius: 5px;
+  border:solid 1px #252525;
+  border-radius: 10px;
   padding:5px;
   text-align: center;
   font-weight:300;
   color:var(--pink);
   font-size:var(--large);
   width:60px;
-  background-color: #303030;
+  background-color: #151515;
 }
 
 .count span{
   font-weight:200;
-  font-size:var(--normal);
+  font-size:var(--small);
   color:#fff;
 }
 

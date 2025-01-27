@@ -6,16 +6,42 @@ const Countdown = () => {
   const [sec, setSec] = useState(0)
   const [hour, setHour] = useState(0)
   const [day,setDay] = useState(0)
+  const [service, setService] = useState("")
+  const [start, setStart] = useState(false)
   useEffect(() => {
 
+    let getNextDay = (dayName) => {
+
+        // The current day
+        var date = new Date();
+        var now = date.getDay();
+    
+        // Days of the week
+        var days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+    
+        // The index for the day you want
+        var day = days.indexOf(dayName.toLowerCase());
+    
+        // Find the difference between the current day and the one you want
+        // If it's the same day as today (or a negative number), jump to the next week
+        var diff = day - now;
+        diff = diff < 1 ? 7 + diff : diff;
+    
+        // Get the timestamp for the desired day
+        var nextDayTimestamp = date.getTime() + (1000 * 60 * 60 * 24 * diff);
+    
+        // Get the next day
+        return new Date(nextDayTimestamp);
+    
+    };
  
       let nd = new Date();
       let wd = nd.getDay();
       let ti = nd.getHours();
-      let pbs = new Date("Jan 28, 2025 19:00:00").getTime();
-      let sm = new Date("Jan 26, 2025 10:00:00").getTime();
-      let se = new Date("Jan 26, 2025 17:30:00").getTime();
-      let md = new Date("Jun 8, 2021 19:00:00").getTime();
+      let pbs = new Date(getNextDay("tuesday")).getTime();
+      let sm = new Date(getNextDay("sunday")).getTime();
+      let se = new Date(getNextDay("sunday")).getTime();
+      //let md = new Date().getTime();
       let t1 = "Sunday Morning Service";
       let t2 = "Sunday Evening Service";
       let t3 = "Prayer & Bible Study";
@@ -52,11 +78,11 @@ const Countdown = () => {
       setMin(minutes)
       setHour(hours)
       setDay(days)
-
+        setService(t)
         // If the count down is finished, write some text
       if (distance < 0) {
           clearInterval(x);
-          //ti = "In Progress";  
+          setStart(true) 
       }
       }, 1000);
       
@@ -66,11 +92,12 @@ const Countdown = () => {
   
   return (
     <>
+    <div className="countdown-title">{start ? `Our ${service} is in progress` : `Our ${service} starts in`}</div>
     <div className="countdown-wrapper">
-        <div className="count">{day}<span>Days</span></div>
-        <div className="count">{hour}<span>Hours</span></div>
-        <div className="count">{min}<span>Min</span></div>
-        <div className="count">{sec}<span>Sec</span></div>
+        <div className="count">{day}<span>day(s)</span></div>
+        <div className="count">{hour}<span>hour(s)</span></div>
+        <div className="count">{min}<span>min(s)</span></div>
+        <div className="count">{sec}<span>sec(s)</span></div>
     </div>
     </>
   )
