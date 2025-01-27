@@ -12,7 +12,7 @@ export const Header = () => {
 
     const [modal, setModal] = useState(false);
 
-    function handleModal(){
+    const handleModal = ()=>{
         setModal(true)
     }
 

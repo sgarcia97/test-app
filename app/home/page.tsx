@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client'
 import {Header} from "../components/Header"
 import Landing from "../components/Landing"
 import {CardWrapper, Card} from "../components/Card"
@@ -6,8 +6,12 @@ import { LuPersonStanding } from "react-icons/lu";
 import { BiBible } from "react-icons/bi";
 import { FiYoutube } from "react-icons/fi";
 import { TbLocationPin } from "react-icons/tb";
+import {useEffect, useState} from "react";
+import Countdown from "../components/Countdown"
 
 export default function Page() {
+  
+  
   return (
     <>
       <Header/>
@@ -15,11 +19,12 @@ export default function Page() {
         title="25 Years Making a Difference" 
         subtitle="with the Gospel"
         desc="For 25 years we have laboured as a church to shine as lights in our community so that everyone has the opportunity to hear and experience the good news of Jesus Christ."/>
+        <div>{<Countdown/>}</div>
       <CardWrapper center={true}>
         <Card 
         title="New Here?" 
         img={<LuPersonStanding className="icon-small"/>}
-        desc="A warm welcome to Enterprise Bible Baptist Church. Let us help you get started quickly with our helpful resources" bname="Get Started" blink="/new" visible={true}/>
+        desc="A warm welcome to Enterprise Bible Baptist Church. Let us help you get started quickly with our helpful resources" bname="Get started" blink="/new" visible={true}/>
         <Card 
         title="What is the Gospel?" 
         img={<BiBible className="icon-small"/>}
@@ -27,7 +32,7 @@ export default function Page() {
         <Card 
         title="Pay us a Visit" 
         img={<TbLocationPin className="icon-small"/>}
-        desc="We are located at the corner of Dass and Nimblette Street, Enterprise, Chaguanas" blink="/contact" bname="Get Directions" visible={true}/>
+        desc="We are located at the corner of Dass and Nimblette Street, Enterprise, Chaguanas" blink="/contact" bname="Get directions" visible={true}/>
         <Card 
         title="Watch our Services Online" 
         img={<FiYoutube className="icon-small"/>}
