@@ -561,12 +561,19 @@ a:hover{
     aspect-ratio:unset;
   }
 
-  .home-section-wrapper{
+  .home-section-wrapper, .home-section-wrapper:nth-child(even){
     flex-flow:column nowrap;
   }
+  
+  
 
   .modal{
     right:0px;
     width:auto;
   }
+  
+  .footer-section-wrapper{
+    flex-flow:column nowrap;
+    align-items:center:
+    }
 }
