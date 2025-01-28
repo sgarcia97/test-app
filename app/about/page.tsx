@@ -23,15 +23,7 @@ const Page = () => {
 
          <p>In 2002 the Mc Leans went back to the USA and Pastor Johann Blackman surrendered to Pastor the church and he is still the pastor of this church.</p>
 
-         <CardWrapper center={false}>
-            <Card 
-            title="Our Statement of Faith" 
-            desc="Our Statement of Faith does not cover the full extent of what we believe but here is a good outline of the doctrines our church holds to."
-            bname="What we believe"
-            blink="/beliefs"
-            visible={true}
-            />
-         </CardWrapper>
+         
       </Template>
    )
 }
