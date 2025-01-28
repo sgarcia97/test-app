@@ -8,7 +8,7 @@ export default  function Page() {
   const [data, setData] = useState([])
 
   useEffect(()=>{
-const req = "GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=200&q=enterprisebiblebaptistchurch&key=AIzaSyDNVKo6Z6nyzK8bshHKWwUf7Ug80pP2nn4 HTTP/1.1"
+const req = ""
 
 //Authorization: Bearer [YOUR_ACCESS_TOKEN]
 //Accept: application/json
