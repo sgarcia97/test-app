@@ -1,14 +1,18 @@
 "use client"
-import {useState} from "react"
+import {useState, useEffect} from "react"
 type Footerprop = {
 
 }
 
 const Footer = (props: Footerprop) => {
     const [year, setYear] = useState(0);
-    let d = new Date();
-    let y = d.getFullYear();
-    setYear(y);
+
+    useEffect(()=>{
+        let d = new Date();
+        let y = d.getFullYear();
+        setYear(y);
+    },[])
+    
     return(
       
         <div className="footer">
