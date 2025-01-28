@@ -7,6 +7,9 @@ import { BiBible } from "react-icons/bi";
 import { FiYoutube } from "react-icons/fi";
 import { TbLocationPin } from "react-icons/tb";
 import Countdown from "../components/Countdown"
+import Footer from "../components/Footer"
+import HomeSection from "../components/HomeSection"
+import Family from "../../public/family.jpg"
 
 export default function Page() {
   
@@ -38,6 +41,17 @@ export default function Page() {
         blink="/live" 
         bname="Watch now" visible={true}/>
       </CardWrapper>
+      <div className="hs">
+      <HomeSection 
+      title="We are a Family" 
+      desc="No matter who you are, God wants to use you to build His kingdom and further the work of the gospel" 
+      img={Family}/>
+      <HomeSection 
+      title="Get Involved" 
+      desc="No matter who you are, God wants to use you to build His kingdom and further the work of the gospel" 
+      img={Family}/>
+      </div>
+      <Footer/>
     </>
   );
 }
