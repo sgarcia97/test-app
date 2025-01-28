@@ -6,11 +6,9 @@ import { LuPersonStanding } from "react-icons/lu";
 import { BiBible } from "react-icons/bi";
 import { FiYoutube } from "react-icons/fi";
 import { TbLocationPin } from "react-icons/tb";
-import {useEffect, useState} from "react";
 import Countdown from "../components/Countdown"
 
 export default function Page() {
-  
   
   return (
     <>
