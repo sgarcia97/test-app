@@ -16,7 +16,7 @@ const HomeSection = (props) => {
                     <p>{props.desc}</p>
                 </div>
             </div>
-            <div className="home-section"><Image className="home-section-img" height={400} alt="" src={props.img}></Image></div>
+            <div className="home-section"><div className={`home-section-img ${props.img}`}></div></div>
         </div>
         </>
     )

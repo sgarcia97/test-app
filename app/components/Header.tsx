@@ -3,6 +3,7 @@ import { useState} from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import Image from "next/image"
+import Logo from "../../public/logo.png"
 import { CgMenuRight } from "react-icons/cg";
 import { TfiClose } from "react-icons/tfi";
 
@@ -19,7 +20,7 @@ export const Header = () => {
     return(
         <>
         <nav className="nav">
-            EBB Church
+            <Image src={Logo} alt="" width={30} height={30}></Image>
         <div onClick={handleModal} className="menu-button"> <CgMenuRight className="menu-icon" /></div>
         
         </nav>

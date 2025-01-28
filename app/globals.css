@@ -189,7 +189,7 @@ padding-bottom:20px;
   display:flex;
   flex-flow:row nowrap;
   align-items:center;
-  gap:30px;
+  gap:50px;
   padding:70px;
   overflow:hidden;
 }
@@ -212,14 +212,21 @@ padding-bottom:20px;
 
 .home-section-img{
   position:relative;
+  width:100%;
+  height:500px;
   border-radius:20px;
   filter:grayscale(80%);
-  display:flex;
-  flex-flow:column nowrap;
-  justify-content: flex-end;
   aspect-ratio: 1/1;
   transform:rotate(10deg);
-  object-fit: cover;
+  z-index:2;
+}
+
+.family{
+  position:relative;
+  background: url(../public/family.jpg);
+  background-size:cover;
+  background-position:center;
+  z-index:2;
 }
 
 .home-section-img::before{
@@ -229,7 +236,9 @@ padding-bottom:20px;
   bottom:0px;
   left:0px;
   right:0px;
-  background-color:#151515;
+  border: solid 1px #fff;
+  background-color:#ffffff;
+  opacity:0.2;
   border-radius: 20px;
   z-index:-1;
   transform:rotate(-10deg);
@@ -242,10 +251,11 @@ padding-bottom:20px;
   bottom:0px;
   left:0px;
   right:0px;
-  border:solid 2px #ffffff;
+  border:solid 5px #ffffff;
   opacity:0.1;
-  transform:rotate(-5deg);
+  transform:rotate(-15deg);
   border-radius:20px;
+  z-index:2;
 }
 
 .page{
@@ -399,6 +409,10 @@ align-items: center;
   gap:30px;
 }
 
+.footer-logo{
+  opacity:0.4;
+}
+
 .footer-section-wrapper{
   display:flex;
   flex-flow:row wrap;
@@ -545,6 +559,10 @@ a:hover{
   .card{
     width:auto;
     aspect-ratio:unset;
+  }
+
+  .home-section-wrapper{
+    flex-flow:column nowrap;
   }
 
   .modal{

@@ -44,12 +44,12 @@ export default function Page() {
       <div className="hs">
       <HomeSection 
       title="We are a Family" 
-      desc="No matter who you are, God wants to use you to build His kingdom and further the work of the gospel" 
-      img={Family}/>
+      desc="At Enterprise Bible Baptist Church, all are welcome. No matter who you are or where you're from, we want to treat like family with the love of Christ." 
+      img="family"/>
       <HomeSection 
       title="Get Involved" 
-      desc="No matter who you are, God wants to use you to build His kingdom and further the work of the gospel" 
-      img={Family}/>
+      desc="No matter who you are, God wants to use you to build His kingdom and further the work of the gospel. See how you can get involved in the great work that God has called us to." 
+      img="family"/>
       </div>
       <Footer/>
     </>
