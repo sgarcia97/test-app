@@ -575,4 +575,9 @@ a:hover{
     flex-flow:column nowrap;
     align-items:center;
   }
+  
+  .footer-section{
+    text-align:center;
+    
+    }
 }
