@@ -413,6 +413,11 @@ align-items: center;
   background-color:var(--background);
 }
 
+.spacer{
+  position:relative;
+  height:30px;
+  }
+
 .footer-logo{
   opacity:0.4;
 }
