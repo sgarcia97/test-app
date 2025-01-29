@@ -25,7 +25,7 @@ const Page = () => {
                 />
                 <Card 
                 title="Visit Us" 
-                desc="Corner of Dass & Niblette street, Enterprise" 
+                desc="Corner of Dass Trace & Nibblette Street, Enterprise, Chaguanas" 
                 img={<GrLocation className="icon"/>}
                 visible={true}
                 bname="Get directions"
