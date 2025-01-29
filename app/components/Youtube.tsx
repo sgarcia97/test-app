@@ -1,3 +1,4 @@
+"use client"
 import {useState, useEffect} from "react"
 import Image from "next/image"
 
@@ -10,7 +11,6 @@ const Youtube = () => {
         const request = await fetch(url);
         const ydata = await request.json();
         setData(ydata)
-        console.log(ydata)
       }
       getYoutubeData()
       
@@ -25,7 +25,6 @@ const Youtube = () => {
               <div className="video-content">
               <div className="video-title">{vid.snippet.title}</div>
               <div className="video-desc">{vid.snippet.description}</div>
-              <div className="video-dates">{vid.snippet.publishedAt}</div>
               </div>
             </div>
           })
