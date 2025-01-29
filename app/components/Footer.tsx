@@ -3,6 +3,7 @@ import {useState, useEffect} from "react"
 import Link from "next/link"
 import Image from "next/image"
 import Logo from "../../public/logo.png"
+import BibleVerse from "../components/Bible"
 type Footerprop = {
 
 }
@@ -20,7 +21,9 @@ const Footer = (props: Footerprop) => {
       
         <div className="footer">
             <div className="footer-section-wrapper">
-                <Image src={Logo} width={120} className="footer-logo" alt=""></Image>
+                <div><Image src={Logo} width={120} className="footer-logo" alt=""></Image>
+                <BibleVerse/>
+                </div>
                 <div className="footer-section">
                     <div className="footer-section-title">Site Map</div>
                     <div><Link className="def-link"href="/about">About us</Link></div>
