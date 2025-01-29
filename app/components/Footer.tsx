@@ -64,7 +64,7 @@ const Footer = (props: Footerprop) => {
                     <div><Link className="def-link" href="https://www.youtube.com/@enterprisebiblebaptistchur8389">Youtube</Link></div>
                 </div>
             </div>
-            <div>Copyright &copy; {year} Enterprise Bible Baptist Church. All rights reserved.</div>
+            <div>Copyright &copy; 1999 - {year} Enterprise Bible Baptist Church. All rights reserved.</div>
         </div>
     )
 }
