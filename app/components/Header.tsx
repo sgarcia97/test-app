@@ -6,6 +6,7 @@ import Image from "next/image"
 import Logo from "../../public/logo.png"
 import { CgMenuRight } from "react-icons/cg";
 import { TfiClose } from "react-icons/tfi";
+import SearchBible from "../components/SearchBible"
 
 
 
@@ -21,6 +22,7 @@ export const Header = () => {
         <>
         <nav className="nav">
             <Image src={Logo} alt="" width={30} height={30}></Image>
+            <SearchBible/>
         <div onClick={handleModal} className="menu-button"> <CgMenuRight className="menu-icon" /></div>
         
         </nav>

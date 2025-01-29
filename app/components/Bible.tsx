@@ -19,7 +19,6 @@ const options = {
       const res = await fetch(url)
       const data = await res.json()
       setPosts(data)
-      console.log(data)
     }
     fetchPosts()
   }, [])
