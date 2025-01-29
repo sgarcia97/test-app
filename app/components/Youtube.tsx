@@ -1,12 +1,11 @@
 import {useState, useEffect} from "react"
-import Image from "next/image"
 
 const Youtube = () => {
     const [data, setData] = useState(null)
-
+    const browse = (address:string) => {location.assign(address)}
     useEffect(()=>{
       const getYoutubeData = async () => {
-        const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API_KEY}`;
+        const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
         const request = await fetch(url);
         const ydata = await request.json();
         setData(ydata)
@@ -20,7 +19,8 @@ const Youtube = () => {
         <div className="video-wrapper">
         {
           data.items.map((vid) => {
-            return <div className="video" key={vid.etag}>
+            
+             return <div className="video" onClick={()=>browse(`https://www.youtube.com/watch?v=${vid.id.videoId}`)} key={vid.etag}>
               <img className="video-image" src={vid.snippet.thumbnails.medium.url} alt="" ></img>
               <div className="video-content">
               <div className="video-title">{vid.snippet.title}</div>

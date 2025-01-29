@@ -464,7 +464,7 @@ form button{
 .video-wrapper{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  gap:10px;
+  gap:15px;
 }
 
 .video{
@@ -472,7 +472,12 @@ form button{
   padding:2px;
   border-radius: 5px;
   font-weight:300;
+  cursor:pointer;
+  transition: all 0.2s ease-in-out;
+}
 
+.video:hover{
+  transform:translate(0px, -5px)
 }
 
 .video-content{
