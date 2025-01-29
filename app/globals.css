@@ -540,6 +540,15 @@ form button{
   
   background-color:var(--background);
 }
+.bible-inspiration{
+  font-size:var(--medium)
+}
+.footer-image-holder{
+  width:100%;
+  display:flex;
+  gap:30px;
+  align-items: center;
+}
 
 .spacer{
   position:relative;
@@ -705,7 +714,12 @@ a:hover{
     flex-flow:column nowrap;
   }
   
-  
+  .message{
+    font-size:var(--small);
+    font-weight:300;
+    color:#999999;
+    text-align:center;
+  }
   .modal{
     left:0px;
     width:auto;
@@ -728,6 +742,10 @@ a:hover{
   .footer-section{
     text-align:center;
     
+    }
+
+    .footer-image-holder{
+      flex-flow:column nowrap;
     }
 
     .video-wrapper{

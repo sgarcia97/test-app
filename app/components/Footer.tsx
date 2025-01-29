@@ -21,7 +21,7 @@ const Footer = (props: Footerprop) => {
       
         <div className="footer">
             <div className="footer-section-wrapper">
-                <div><Image src={Logo} width={120} className="footer-logo" alt=""></Image>
+                <div className="footer-image-holder"><Image src={Logo} width={120} className="footer-logo" alt=""></Image>
                 <BibleVerse/>
                 </div>
                 <div className="footer-section">

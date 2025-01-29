@@ -16,7 +16,7 @@ const YoutubePlaylist = () => {
       getYoutubeData()
       
     },[])
-    if (!data) return <div>Getting Videos...</div>
+    if (!data) return <div className="message">Getting Videos...</div>
     return (
         <div className="video-wrapper">
         {

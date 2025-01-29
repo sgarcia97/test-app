@@ -28,7 +28,7 @@ const options = {
   return (
 
     <>
-      <div>{posts.random_verse.text}<br></br>{`${posts.random_verse.book} ${posts.random_verse.chapter}:${posts.random_verse.verse}`}</div>
+      <div><div className="bible-inspiration">Bible Inspiration</div>{posts.random_verse.text}<br></br>{`${posts.random_verse.book} ${posts.random_verse.chapter}:${posts.random_verse.verse}`} (KJV)</div>
       {//posts.jobs.map((post) => (
         //<li key={post.id}>{post.title}</li>
       //))
