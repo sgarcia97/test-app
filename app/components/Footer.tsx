@@ -57,14 +57,14 @@ const Footer = (props: Footerprop) => {
                     <div><Link className="def-link" href="tel:8686890908">(868) 689-0908</Link></div>
                     <div className="spacer"></div>
                     <div className="footer-section-title">Visit Us</div>
-                    <div><Link className="def-link" href="/about">Corner of Dass & Nimblette Street<br></br>Enterprise, Chaguanas<br></br>Trinidad & Tobago</Link></div>
+                    <div><Link className="def-link" href="/about">Corner of Dass Trace & Nibblette Street<br></br>Enterprise, Chaguanas<br></br>Trinidad & Tobago</Link></div>
                     <div className="spacer"></div>
                     <div className="footer-section-title">Follow Us</div>
                     <div><Link className="def-link" href="https://www.facebook.com/enterprisebbc">Facebook</Link></div>
                     <div><Link className="def-link" href="https://www.youtube.com/@enterprisebiblebaptistchur8389">Youtube</Link></div>
                 </div>
             </div>
-            <div>Copyright &copy; {year} Enterprise Bible Baptist Church. All rights reserved.</div>
+            <div>Copyright &copy; 1999 - {year} Enterprise Bible Baptist Church. All rights reserved.</div>
         </div>
     )
 }
