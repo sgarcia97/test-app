@@ -312,6 +312,7 @@ align-items: center;
   padding-inline:30px;
   padding-block:30px;
   border-top:solid 1px #202020;
+  flex-grow: 1;
 }
 
 .card-content{
@@ -345,6 +346,7 @@ align-items: center;
   background-color:#101010;
   padding-inline:30px;
   padding-block:30px;
+  
 }
 
 .card-image{
@@ -546,6 +548,8 @@ form button{
 
 .footer-logo{
   opacity:0.4;
+  margin-bottom:20px;
+  position:relative;
 }
 
 .footer-section-wrapper{
