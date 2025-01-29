@@ -29,7 +29,7 @@ const Footer = (props: Footerprop) => {
                     <div><Link className="def-link"href="/about">About us</Link></div>
                     <div><Link className="def-link"href="/beliefs">Our Beliefs</Link></div>
                     <div><Link className="def-link"href="/beliefs/gospel">The Gospel</Link></div>
-                    <div><Link className="def-link"href="/ministry">Our Ministries</Link></div>
+                    <div><Link className="def-link"href="/ministries">Our Ministries</Link></div>
                     <div><Link className="def-link"href="/about">Contact us</Link></div>
                 </div>
                 <div className="footer-section">
