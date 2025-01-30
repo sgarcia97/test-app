@@ -1,11 +1,11 @@
 "use client"
 import {useState, useEffect} from "react"
 import Youtube from "../components/Youtube"
-const YoutubePlaylist = () => {
+const YoutubeLive = (props) => {
     const [data, setData] = useState(null)
     useEffect(()=>{
       const getYoutubeData = async () => {
-        const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
+        const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCxKPidrU1v0sMAGoIs9HVRA&eventType=${props.type}&maxResults=10&q=enterprisebiblebaptistchurch&type=video&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
         const request = await fetch(url);
         if(request.ok){
           const ydata = await request.json();
@@ -17,10 +17,14 @@ const YoutubePlaylist = () => {
       getYoutubeData()
       
     },[])
-    if (!data) return <div className="message">Getting Videos...</div>
+    if (!data) return <div className="message">Livestream is not available right now</div>
     return (
+      <>
+      <h2>{props.type}</h2>
+      {data.items.length == 0 && props.type == "live" && <div className="message">Live stream not available right now</div>}
         <div className="video-wrapper">
         {
+         
           data.items.map((p) => {
             const dat = new Date(p.snippet.publishedAt).toDateString()
            
@@ -38,9 +42,11 @@ const YoutubePlaylist = () => {
               }
         
 })
-}
+          }
+
 </div>
+</>
 )
 }
 
-export default YoutubePlaylist;
+export default YoutubeLive;

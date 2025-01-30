@@ -7,6 +7,7 @@
   --lilac:#dda0dd;
   --yellow:#f0e68c;
 
+  --esmall:0.8rem;
   --small:1rem;
   --normal:1.2rem;
   --medium:1.6rem;
@@ -474,6 +475,7 @@ form button{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap:15px;
+  padding-block:15px;
 }
 
 .video{
@@ -499,7 +501,7 @@ form button{
   color:#909090;
 }
 
-.video-dates{
+.video-date{
   font-size:var(--small);
   font-weight:200;
   color:#bababa;
@@ -553,8 +555,10 @@ form button{
 .footer-image-holder{
   width:100%;
   display:flex;
-  gap:30px;
+  flex-flow:column nowrap;
+  gap:10px;
   align-items: center;
+  text-align: center;
 }
 
 .spacer{
@@ -572,6 +576,7 @@ form button{
   display:flex;
   flex-flow:row wrap;
   gap:30px;
+  justify-content: center;
 }
 
 .footer-section-title{
@@ -654,6 +659,20 @@ i{
   font-size:var(--large);
 }
 
+.message{
+  font-size:var(--small);
+  font-weight:300;
+  color:#999999;
+  text-align:center;
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink{
+  0% {opacity:0.3}
+  50% {opacity:1.0}
+  100% {opacity:0.3}
+}
+
 .active-link{
   color:var(--pink) !important;
   font-size:3rem;
@@ -722,12 +741,7 @@ a:hover{
     flex-flow:column nowrap;
   }
   
-  .message{
-    font-size:var(--small);
-    font-weight:300;
-    color:#999999;
-    text-align:center;
-  }
+  
   .modal{
     left:0px;
     width:auto;

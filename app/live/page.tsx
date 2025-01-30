@@ -2,12 +2,18 @@ import Template from "../components/Template"
 import Countdown from "../components/Countdown"
 import Youtube from "../components/Youtube"
 import YoutubePlaylist from "../components/YoutubePlaylist"
+import YoutubeLive from "../components/YoutubeLive"
 
 const Page = () => {
   return(
    <Template title="Live">
-    <YoutubePlaylist/>
+    <YoutubeLive type="live"/>
     <Countdown/>
+    <YoutubeLive type="upcoming"/>
+    
+    
+    <YoutubePlaylist/>
+    
     </Template>
   );
 }
