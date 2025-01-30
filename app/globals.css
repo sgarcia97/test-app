@@ -377,8 +377,14 @@ align-items: center;
   justify-content: center;
   align-items: center;
   gap:20px;
-  animation:fadeIn 2s linear;
+  animation:fadeIn 0.2s linear;
 }
+
+@keyframes fadeIn{
+  0% {opacity:0; transform:translate(100px);}
+  100% {opacity:1.0; transform:translate(0px);}
+}
+
 
 .modal-bible{
   position:fixed;
@@ -673,10 +679,6 @@ a:hover{
   color:#ffffff;
 }
 
-@keyframes fadeIn{
-  0% {opacity:0; transform:translate(0px, -100px);}
-  100% {opacity:1.0%; transform:translate(0px, 0px);}
-}
 
 
 @media (max-width: 600px) {

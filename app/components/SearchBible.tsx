@@ -39,7 +39,7 @@ const handleResults = (e) => {
     return(
         <>
         <form onSubmit={search}>
-            <input className="search" name="query" type="search" onInput={handleResults} placeholder="Search the Bible"/>
+            <input className="search" name="query" type="search" onInput={handleResults} placeholder="Search the Bible" required title="Enter the book, chapter and verse (e.g. John 3:16)"/>
             <button type="submit">Search</button>
         </form>
         { modal && (

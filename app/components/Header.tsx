@@ -18,6 +18,10 @@ export const Header = () => {
         setModal(true)
     }
 
+    const closeModal = ()=>{
+        setModal(false)
+    }
+
     return(
         <>
         <nav className="nav">
@@ -26,20 +30,19 @@ export const Header = () => {
         <div onClick={handleModal} className="menu-button"> <CgMenuRight className="menu-icon" /></div>
         
         </nav>
-        <Modall showModal={modal} set={setModal} />
+        {modal && <Modall cm={closeModal} />}
         </>
     )
 }
 
 type ModalProps = {
-    showModal:boolean;
-    set:any;
+    cm:any;
 }
 export const Modall = (props: ModalProps) => {    
     return(
         <>
         {
-            props.showModal && <div className="modal">
+            <div className="modal">
                 <NavLink link="/" title="Home"/>
                 <NavLink link="/about" title="About"/>
                 <NavLink link="/beliefs" title="Beliefs"/>
@@ -47,7 +50,7 @@ export const Modall = (props: ModalProps) => {
                 <NavLink link="/ministries" title="Ministry"/>
                 <NavLink link="/live" title="Live"/>
                 <NavLink link="/contact" title="Contact"/>
-                <div className="close" onClick={()=>{props.set(false)}}><TfiClose className="close-icon"/></div>
+                <div className="close" onClick={props.cm}><TfiClose className="close-icon"/></div>
             </div>
         }
         </>

@@ -5,7 +5,7 @@ const YoutubePlaylist = () => {
     const [data, setData] = useState(null)
     useEffect(()=>{
       const getYoutubeData = async () => {
-        const url = `https://www.googleapis.com/youtube/v3/playlists?part=snippet,contentDetails&maxResults=25&channelId=UCxKPidrU1v0sMAGoIs9HVRA&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
+        const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
         const request = await fetch(url);
         if(request.ok){
           const ydata = await request.json();
@@ -20,11 +20,10 @@ const YoutubePlaylist = () => {
     return (
         <div className="video-wrapper">
         {
-          data.items.map((pl) => {
+          data.items.map((p) => {
             
-             return <div key={pl.etag}><Youtube cid={pl.id}/></div>
-
-           
+             return <div key={p.etag}><Youtube etag={p.etag} vid={p.id.videoId} title={p.snippet.title} img={p.snippet.thumbnails.medium.url} desc={p.snippet.description}/></div>
+        
 })
 }
 </div>
