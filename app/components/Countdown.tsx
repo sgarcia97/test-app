@@ -14,34 +14,37 @@ const Countdown = () => {
     let getNextDay = (dayName) => {
 
         // The current day
-        var date = new Date();
-        var now = date.getDay();
-    
+        let date = new Date();
+        let now = date.getDay();
+        let df = dayName.toLowerCase();
         // Days of the week
-        var days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+        let days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
     
         // The index for the day you want
-        var day = days.indexOf(dayName.toLowerCase());
-    
+        let day = days.indexOf(dayName.toLowerCase());
+       
         // Find the difference between the current day and the one you want
         // If it's the same day as today (or a negative number), jump to the next week
-        var diff = day - now;
+        let diff = day - now;
         diff = diff < 1 ? 7 + diff : diff;
     
         // Get the timestamp for the desired day
-        var nextDayTimestamp = date.getTime() + (1000 * 60 * 60 * 24 * diff);
-    
+        let nextDayTimestamp = date.getTime() + (1000 * 60 * 60 * 24 * diff);
+        let dd = new Date(nextDayTimestamp).toDateString();
+
         // Get the next day
-        return new Date(nextDayTimestamp);
-    
+        return dd;
     };
  
       let nd = new Date();
       let wd = nd.getDay();
       let ti = nd.getHours();
-      let pbs = new Date(getNextDay("tuesday")).getTime();
-      let sm = new Date(getNextDay("sunday")).getTime();
-      let se = new Date(getNextDay("sunday")).getTime();
+      let pbsF = getNextDay("tuesday") + " 19:30:00";
+      let smF = getNextDay("sunday") + " 10:30:00";
+      let seF = getNextDay("sunday") + " 18:30:00";
+      let pbs = new Date(pbsF).getTime();
+      let sm = new Date(smF).getTime();
+      let se = new Date(seF).getTime();
       //let md = new Date().getTime();
       let t1 = "Sunday Morning Service";
       let t2 = "Sunday Evening Service";
