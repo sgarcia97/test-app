@@ -231,6 +231,15 @@ padding-bottom:20px;
   z-index:2;
 }
 
+.involved{
+  position:relative;
+  background: url(../public/involved.jpg);
+  background-size:cover;
+  background-position:center;
+  z-index:2;
+}
+
+
 .home-section-img::before{
   content:'';
   position:absolute;

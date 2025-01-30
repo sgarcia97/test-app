@@ -51,7 +51,7 @@ export default function Page() {
       <HomeSection 
       title="Get Involved" 
       desc="No matter who you are, God wants to use you to build His kingdom and further the work of the gospel. See how you can get involved in the great work that God has called us to." 
-      img="family"/>
+      img="involved"/>
       </div>
       <Footer/>
     </>
