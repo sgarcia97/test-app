@@ -1,7 +1,7 @@
 "use client"
 import {useState, useEffect} from "react"
 
-const Youtube = (props) => {
+export const Youtube = (props) => {
     const browse = (address:string) => {location.assign(address)}
     return (
             <div className="video" onClick={()=>browse(`https://www.youtube.com/watch?v=${props.data.vid}`)} key={props.data.etag}>
@@ -16,4 +16,15 @@ const Youtube = (props) => {
       
 }
 
-export default Youtube;
+export const YoutubeEmbed = (props) => {
+  const browse = (address:string) => {location.assign(address)}
+    return (
+      <div className="live-video">
+            <iframe src={`https://www.youtube.com/watch?v=${props.data.vid}`} key={props.data.etag}/>
+              
+              <div className="video-content">
+              <div className="video-title">{props.data.title}</div>
+              </div>
+            </div>
+    )
+};

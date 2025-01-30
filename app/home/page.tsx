@@ -10,6 +10,7 @@ import Countdown from "../components/Countdown"
 import Footer from "../components/Footer"
 import HomeSection from "../components/HomeSection"
 import Family from "../../public/family.jpg"
+import YoutubeLive from "../components/YoutubeLive"
 
 export default function Page() {
   
@@ -20,6 +21,7 @@ export default function Page() {
         title="25 Years Making a Difference" 
         subtitle="with the Gospel"
         desc="For 25 years we have laboured as a church to shine as lights in our community so that everyone has the opportunity to hear and experience the good news of Jesus Christ."/>
+        <YoutubeLive type="live"/>
         <div>{<Countdown/>}</div>
       <CardWrapper center={true}>
         <Card 

@@ -1,6 +1,6 @@
 "use client"
 import {useState, useEffect} from "react"
-import Youtube from "../components/Youtube"
+import {Youtube, YoutubeEmbed} from "../components/Youtube"
 const YoutubeLive = (props) => {
     const [data, setData] = useState(null)
     useEffect(()=>{
@@ -37,8 +37,10 @@ const YoutubeLive = (props) => {
                         date: dat
                       }
 
-              if(d.vid){        
+              if(props.type == "upcoming"){        
                 return <Youtube key={p.etag} data={d}/>
+              }else{
+                return <YoutubeEmbed key={p.etag} data={d}/>
               }
         
 })

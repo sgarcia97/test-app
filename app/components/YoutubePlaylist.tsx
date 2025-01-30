@@ -1,6 +1,6 @@
 "use client"
 import {useState, useEffect} from "react"
-import Youtube from "../components/Youtube"
+import {Youtube} from "../components/Youtube"
 const YoutubePlaylist = () => {
     const [data, setData] = useState(null)
     useEffect(()=>{
