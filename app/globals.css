@@ -376,23 +376,24 @@ align-items: center;
 
 .modal{
   position:fixed;
-  top:0px;
-  bottom:0px;
-  right:0px;
+  top:20px;
+  bottom:20px;
+  right:20px;
   width:500px;
   z-index:10;
-  background-color:#000000;
-  border-radius:0px 15px 15px 0px;
+  background-color:#050505;
+  border-radius:20px;
   display:flex;
   flex-flow:column nowrap;
   justify-content: center;
   align-items: center;
   gap:20px;
   animation:fadeIn 0.2s linear;
+  box-shadow:-2px 2px 20px 0px rgba(0,0,0,0.5);
 }
 
 @keyframes fadeIn{
-  0% {opacity:0; transform:translate(100px);}
+  0% {opacity:0.0; transform:translate(100px);}
   100% {opacity:1.0; transform:translate(0px);}
 }
 
@@ -778,6 +779,10 @@ a:hover{
   
   .modal{
     left:0px;
+    right:0px;
+    bottom:0px;
+    top:0px;
+    border-radius: 0px;
     width:auto;
   }
   
