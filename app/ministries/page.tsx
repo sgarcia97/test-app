@@ -40,7 +40,7 @@ const Page = () => {
                 <Card 
                 img={<MdOutlineLocalGroceryStore className="icon-small" />}
                 title="Food Hamper Ministry" 
-                desc="Every month, the church selects a family from amongst its memebers or the community to gift a hamper to" 
+                desc="Every month, the church donates food hampers to a family in need from the community.
                 visible={false}
                 />
               </CardWrapper>
