@@ -39,6 +39,7 @@ const Page = () => {
                 visible={false}
                 />
               </CardWrapper>
+                <p className="page-subtitle">We look forward to hearing from you and walking alongside you in your spiritual journey. May God bless you and your loved ones!</p>
               </Template>
 
     )
