@@ -709,9 +709,8 @@ a:hover{
   color:#ffffff;
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px){
-  .footer-section:nth-child(4){
-    width:100%;
+@media screen and (min-width: 601px) and (max-width: 900px){
+  .footer-section div{
     text-align: center;
   }
 
@@ -721,7 +720,7 @@ a:hover{
 }
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   nav{
     justify-content: space-between;
   }
