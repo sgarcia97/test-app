@@ -571,6 +571,7 @@ form button{
   text-align: center;
 }
 
+
 .spacer{
   position:relative;
   height:30px;
@@ -708,6 +709,16 @@ a:hover{
   color:#ffffff;
 }
 
+@media screen and (min-width: 600px) and (max-width: 900px){
+  .footer-section:nth-child(4){
+    width:100%;
+    text-align: center;
+  }
+
+  .footer-section-title{
+    text-align: center;
+  }
+}
 
 
 @media (max-width: 600px) {
@@ -793,3 +804,4 @@ a:hover{
       display:none;
     }
 }
+
