@@ -10,6 +10,7 @@ const Page = () => {
     return(
       
         <Template title="Contact">
+<div>Feel free to contact us for any information on our church or for counselling</div>
         <CardWrapper center={true}>
                 <Card 
                 title="Call Us" 
