@@ -10,7 +10,7 @@ const Page = () => {
     return(
       
         <Template title="Contact">
-<p className="page-subtitle">Feel free to contact us for any information on our church or for counselling</p>
+<p className="page-subtitle">Welcome to Enterprise Bible Baptist! We are delighted that you’ve taken the time to reach out to us. Whether you have questions, prayer requests, or simply want to learn more about our church community, we are here to assist you. Please use the contact form below or reach out to us through any of the methods listed.</p>
         <CardWrapper center={true}>
                 <Card 
                 title="Call Us" 
