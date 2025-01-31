@@ -582,6 +582,9 @@ input:focus{
   text-align: center;
 }
 
+.footer-image-holder div{
+  max-width:600px;
+}
 
 .spacer{
   position:relative;
