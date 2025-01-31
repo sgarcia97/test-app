@@ -33,9 +33,9 @@ const Page = () => {
                 blink="/"
                 />
                 <Card 
-                title="Follow Us" 
+                title="Connect With Us" 
                 img={<IoShareSocial className="icon"/>}
-                desc="Start watching our services which are streamed live every Sunday and Tuesday" 
+                desc="Stay connected with our church family by following us on social media for updates, events, and inspirational messages." 
                 visible={false}
                 />
               </CardWrapper>
