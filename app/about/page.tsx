@@ -3,6 +3,13 @@ import Template from "../components/Template"
 import {Card, CardWrapper} from "../components/Card"
 import { MdOutlineHistoryEdu } from "react-icons/md";
 import { FaPersonShelter } from "react-icons/fa6";
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'About Us',
+  description: 'The Enterprise Bible Baptist Church was started by a Baptist missionary pastor from the United states, John McLean and his family together with Johann Blackman who himself was an ordained minister, and his family.'
+};
+
 const Page = () => {
    return(
 

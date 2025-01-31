@@ -12,8 +12,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Enterprise Bible Baptist Church",
+  title: {
+    template: '%s | Enterprise Bible Baptist Church',
+    default: 'Enterprise Bible Baptist Church'},
   description: "His Word, His Way, His Will",
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/logo.png',
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
