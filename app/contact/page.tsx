@@ -10,6 +10,7 @@ const Page = () => {
     return(
       
         <Template title="Contact">
+<p className="page-subtitle">Welcome to Enterprise Bible Baptist! We are delighted that you’ve taken the time to reach out to us. Whether you have questions, prayer requests, or simply want to learn more about our church community, we are here to assist you. Please use the contact form below or reach out to us through any of the methods listed.</p>
         <CardWrapper center={true}>
                 <Card 
                 title="Call Us" 
@@ -32,12 +33,13 @@ const Page = () => {
                 blink="/"
                 />
                 <Card 
-                title="Follow Us" 
+                title="Connect With Us" 
                 img={<IoShareSocial className="icon"/>}
-                desc="Start watching our services which are streamed live every Sunday and Tuesday" 
+                desc="Stay connected with our church family by following us on social media for updates, events, and inspirational messages." 
                 visible={false}
                 />
               </CardWrapper>
+                <p className="page-subtitle">We look forward to hearing from you and walking alongside you in your spiritual journey. May God bless you and your loved ones!</p>
               </Template>
 
     )
