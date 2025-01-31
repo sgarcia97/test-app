@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react"
 import { TfiClose } from "react-icons/tfi";
+import { FiSearch } from "react-icons/fi";
 
 const SearchBible = () => {
 const [searchData, setSearchData] = useState(null)
@@ -38,9 +39,9 @@ const handleResults = (e) => {
    
     return(
         <>
-        <form onSubmit={search}>
+        <form className="search-form" onSubmit={search}>
             <input className="search" name="query" type="search" onInput={handleResults} placeholder="Search the Bible" required title="Enter the book, chapter and verse (e.g. John 3:16)"/>
-            <button type="submit">Search</button>
+            <button type="submit" className="searchButton"><FiSearch/></button>
         </form>
         { modal && (
         <div className="modal-bible"><div className="search-results-header"><TfiClose onClick={handleModal}/></div>{ data ? (data.verses.map((verse)=>{

@@ -10,6 +10,7 @@ import SearchBible from "../components/SearchBible"
 
 
 
+
 export const Header = () => {
 
     const [modal, setModal] = useState(false);
