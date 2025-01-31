@@ -796,8 +796,11 @@ a:hover{
     }
   
   .home-section{
-    
     text-align:center;
+    }
+
+    .home-section p{
+      max-width:600px;
     }
   
   .footer-section{
