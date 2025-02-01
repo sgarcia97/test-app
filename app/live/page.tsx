@@ -4,15 +4,13 @@ import YoutubePlaylist from "../components/YoutubePlaylist"
 import YoutubeLive from "../components/YoutubeLive"
 
 const Page = () => {
+
   return(
    <Template title="Live">
     <YoutubeLive type="live"/>
     <Countdown/>
     <YoutubeLive type="upcoming"/>
-    
-    
     <YoutubePlaylist/>
-    
     </Template>
   );
 }

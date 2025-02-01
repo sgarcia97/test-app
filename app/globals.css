@@ -293,8 +293,6 @@ padding-bottom:20px;
 }
 
 .page-title-wrapper{
-position:sticky;
-top:10px;
 padding-inline:100px;
 padding-top:150px;
 background-color:#101010;
@@ -495,11 +493,36 @@ input:focus{
   height:5px;
 }
 
+iframe{
+  border:none;
+  border-radius:20px;
+  aspect-ratio: 16/9;
+}
+
 .video-wrapper{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap:15px;
   padding-block:15px;
+}
+
+.video-modal{
+  position:fixed;
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+  left:0px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  right:0px;
+  background-color:#000000;
+  z-index:50;
+  bottom:0px;
+  height:500px;
+  margin:auto;
+padding:50px;
+  border-radius:20px;
 }
 
 .video{
@@ -569,8 +592,6 @@ input:focus{
   align-items: center;
   gap:30px;
   position:relative;
-  z-index:1;
-  
   background-color:var(--background);
 }
 .bible-inspiration{

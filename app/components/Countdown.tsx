@@ -30,7 +30,7 @@ const Countdown = () => {
     
         // Get the timestamp for the desired day
         let nextDayTimestamp = date.getTime() + (1000 * 60 * 60 * 24 * diff);
-        let dd = new Date(nextDayTimestamp).toDateString();
+        let dd = new Date(nextDayTimestamp).toLocaleDateString("en-US",{timeZone: "America/Port_of_Spain"});
 
         // Get the next day
         return dd;

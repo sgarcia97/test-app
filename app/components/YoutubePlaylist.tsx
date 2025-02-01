@@ -1,8 +1,15 @@
 "use client"
 import {useState, useEffect} from "react"
-import {Youtube} from "../components/Youtube"
+import {VideoModal,Youtube} from "../components/Youtube"
 const YoutubePlaylist = () => {
     const [data, setData] = useState(null)
+    const [modal, setModal] = useState(false)
+    const [vid, setVid] = useState(null)
+  console.log(vid)
+    const handleModal = (vidd:string) => {
+      setModal(true)
+      setVid(vidd)
+    }
     useEffect(()=>{
       const getYoutubeData = async () => {
         const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
@@ -17,11 +24,16 @@ const YoutubePlaylist = () => {
       getYoutubeData()
       
     },[])
-    if (!data) return <div className="message">Getting Videos...</div>
+    if (!data) return (
+    <div className="message">Getting Videos...</div>
+ 
+  )
     return (
-        <div className="video-wrapper">
+      <>
+      {modal && <VideoModal vid={vid} visible={setModal}/>}
+        <div className="video-wrapper"> 
         {
-          data.items.map((p) => {
+          data.items.map((p:any) => {
             const dat = new Date(p.snippet.publishedAt).toDateString()
            
             const d = { 
@@ -34,13 +46,16 @@ const YoutubePlaylist = () => {
                       }
 
               if(d.vid){        
-                return <Youtube key={p.etag} data={d}/>
+                return <Youtube key={p.etag} data={d} onClick={()=>handleModal(p.id.videoId)}/>
               }
         
 })
+
 }
 </div>
+</>
 )
+
 }
 
 export default YoutubePlaylist;

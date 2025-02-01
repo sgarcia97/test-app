@@ -1,10 +1,12 @@
 "use client"
 import {useState, useEffect} from "react"
 
+
 export const Youtube = (props) => {
-    const browse = (address:string) => {location.assign(address)}
+  const browse = (address:string) => {location.assign(address)}
+ 
     return (
-            <div className="video" onClick={()=>browse(`https://www.youtube.com/watch?v=${props.data.vid}`)} key={props.data.etag}>
+            <div className="video" >
               <img className="video-image" src={props.data.img} alt="" ></img>
               <div className="video-content">
               <div className="video-title">{props.data.title}</div>
@@ -18,6 +20,7 @@ export const Youtube = (props) => {
 
 export const YoutubeEmbed = (props) => {
   const browse = (address:string) => {location.assign(address)}
+  
     return (
       <div className="live-video">
             <iframe src={`https://www.youtube.com/watch?v=${props.data.vid}`} key={props.data.etag}/>
@@ -28,3 +31,20 @@ export const YoutubeEmbed = (props) => {
             </div>
     )
 };
+
+export const VideoModal = (props) => {
+  return(
+    <div className="video-modal">
+      <iframe className="iframe"
+      
+      width="auto"
+      height="100%"
+      src={`https://www.youtube.com/embed/${props.vid}`}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
+    <button className="button" onClick={props.visible(false)}>Close</button>
+    </div>
+  )
+}
