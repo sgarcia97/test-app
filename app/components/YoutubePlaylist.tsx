@@ -30,7 +30,7 @@ const YoutubePlaylist = () => {
   )
     return (
       <>
-      {modal && <VideoModal vid={vid} visible={setModal}/>}
+      {modal && <VideoModal vid={vid}/>}
         <div className="video-wrapper"> 
         {
           data.items.map((p:any) => {

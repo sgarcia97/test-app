@@ -27,7 +27,7 @@ export const YoutubeEmbed = (props) => {
       
       width="auto"
       height="100%"
-      src={`https://www.youtube.com/embed/${props.vid}`}
+      src={`https://www.youtube.com/embed/${props.data.vid}`}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
@@ -42,15 +42,7 @@ export const YoutubeEmbed = (props) => {
 export const VideoModal = (props) => {
   return(
     <div className="video-modal">
-      <iframe className="iframe"
-      
-      width="auto"
-      height="100%"
-      src={`https://www.youtube.com/embed/${props.vid}`}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
-    />
+      <iframe className="iframe" width="auto" height="100%" src={`https://www.youtube.com/embed/${props.vid}?si=rwSuSk6NzK1rySop`} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
     <button className="button" onClick={props.visible(false)}>Close</button>
     </div>
   )
