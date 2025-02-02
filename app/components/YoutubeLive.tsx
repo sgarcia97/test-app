@@ -20,9 +20,9 @@ const YoutubeLive = (props) => {
     if (!data) return <div className="message">Livestream is not available right now</div>
     return (
       <>
-      <h2>{props.type}</h2>
+      <div>{props.type}</div>
       {data.items.length == 0 && props.type == "live" && <div className="message">Live stream not available right now</div>}
-        <div className="video-wrapper">
+        <div className="live-wrapper">
         {
          
           data.items.map((p) => {

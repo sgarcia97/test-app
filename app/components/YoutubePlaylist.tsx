@@ -1,6 +1,7 @@
 "use client"
 import {useState, useEffect} from "react"
 import {VideoModal,Youtube} from "../components/Youtube"
+import staticData from "../components/dataa.json"
 const YoutubePlaylist = () => {
     const [data, setData] = useState(null)
     const [modal, setModal] = useState(false)
@@ -10,6 +11,7 @@ const YoutubePlaylist = () => {
       setModal(true)
       setVid(vidd)
     }
+    /*
     useEffect(()=>{
       const getYoutubeData = async () => {
         const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
@@ -24,6 +26,8 @@ const YoutubePlaylist = () => {
       getYoutubeData()
       
     },[])
+    */
+   setData(staticData)
     if (!data) return (
     <div className="message">Getting Videos...</div>
  

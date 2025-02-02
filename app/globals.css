@@ -506,6 +506,15 @@ iframe{
   padding-block:15px;
 }
 
+.live-wrapper{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:15px;
+  padding-block:15px;
+  max-width:600px;
+  margin:auto;
+}
+
 .video-modal{
   position:fixed;
   display:grid;

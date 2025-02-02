@@ -1,0 +1,856 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "PwVYjiXEPg2896k77_n5QWhwm4w",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 502,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dEn17IsTB6m6CAxjd8SRGsxJU9g",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA"
+            },
+            "snippet": {
+                "publishedAt": "2020-03-22T08:09:41Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Enterprise Bible Baptist Church",
+                "description": "Welcome to Enterprise Bible Baptist Church Youtube channel. Feel free to browse our content for Biblical truths and principles ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/49EWzeaSll3JKQWypn8l4PASd1jkUvPjxmgG5DFJC6kyd6LcCf2nLdGG68zMRRHY9Ie0T1VSmA=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/49EWzeaSll3JKQWypn8l4PASd1jkUvPjxmgG5DFJC6kyd6LcCf2nLdGG68zMRRHY9Ie0T1VSmA=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/49EWzeaSll3JKQWypn8l4PASd1jkUvPjxmgG5DFJC6kyd6LcCf2nLdGG68zMRRHY9Ie0T1VSmA=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-03-22T08:09:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nANA_y0cpVNEqt86s_pv_xAwgA4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mxuNFA29PAQ"
+            },
+            "snippet": {
+                "publishedAt": "2025-02-02T22:01:04Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Knowing is Key to Appreciating",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mxuNFA29PAQ/default_live.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mxuNFA29PAQ/mqdefault_live.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mxuNFA29PAQ/hqdefault_live.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "upcoming",
+                "publishTime": "2025-02-02T22:01:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SFla3P3TtNNZNoRHIeDK8nLN0Jo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FYmN6oIb_M0"
+            },
+            "snippet": {
+                "publishedAt": "2025-01-20T04:05:17Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "The Dangers Of Ignorance.",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FYmN6oIb_M0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FYmN6oIb_M0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FYmN6oIb_M0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-01-20T04:05:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "EWMk3_ncX9pHucOXr5AeTK8DflQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YZThV1Ub7wE"
+            },
+            "snippet": {
+                "publishedAt": "2024-12-02T11:26:10Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "To Follow Jesus Is To Impact Others",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YZThV1Ub7wE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YZThV1Ub7wE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YZThV1Ub7wE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-12-02T11:26:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Z8aE_6e4BT9kMY3SY3BUqhYyhb0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gCwdVfuE218"
+            },
+            "snippet": {
+                "publishedAt": "2024-11-04T11:27:44Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Why Believe In The Bible",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gCwdVfuE218/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gCwdVfuE218/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gCwdVfuE218/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-11-04T11:27:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XUg6H3kaKHa79OKlobLWItEeW28",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gzStU3YusMs"
+            },
+            "snippet": {
+                "publishedAt": "2024-11-28T11:54:19Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Required to Walk in All of God&#39;s Ways",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gzStU3YusMs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gzStU3YusMs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gzStU3YusMs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-11-28T11:54:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "k2yCN6D69M7cP90tPi4zwBuzV70",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-BkIIzfVB6U"
+            },
+            "snippet": {
+                "publishedAt": "2025-01-29T11:27:34Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "The Immense Value of Scripture",
+                "description": "A very warm welcome to our Tuesday Evening Service! We at Enterprise Bible Baptist Church are glad to have you with us.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-BkIIzfVB6U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-BkIIzfVB6U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-BkIIzfVB6U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-01-29T11:27:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "g8oSrkM2J6eEgGHyiqmiLO15UgA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rUSD2__-HcY"
+            },
+            "snippet": {
+                "publishedAt": "2025-02-02T14:08:17Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Be Pleasant In Persecution",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rUSD2__-HcY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rUSD2__-HcY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rUSD2__-HcY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-02-02T14:08:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "D9n5qU1D7M-RlsLJF63HV3IG5Eo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "W1CAjp-RlY0"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-12T03:52:36Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Enterprise Bible Baptist Church Live Stream",
+                "description": "Sunday Morning Service.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W1CAjp-RlY0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W1CAjp-RlY0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W1CAjp-RlY0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-12T03:52:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6CCCPbXdqaQdwMMzXOS4xKpX4uA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7vaX0eknngg"
+            },
+            "snippet": {
+                "publishedAt": "2024-11-18T03:57:14Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "The Advent of Faith",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7vaX0eknngg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7vaX0eknngg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7vaX0eknngg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-11-18T03:57:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vQxxOBFNh9LugeFjIWVfBpe5rQI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "H4KqpJMMY3w"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-16T04:13:57Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Some Things The World Cannot Deny",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H4KqpJMMY3w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H4KqpJMMY3w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H4KqpJMMY3w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-16T04:13:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "WWiAM_s20l6MJ1wBg7GOAvFcgvA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "yND-_9Q6gNE"
+            },
+            "snippet": {
+                "publishedAt": "2024-10-21T11:17:39Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "The Mission To The Rejected",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yND-_9Q6gNE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yND-_9Q6gNE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yND-_9Q6gNE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-10-21T11:17:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "WMNb7Y0-nM5h4KQhtPE4pRKO9Ec",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4Afry4pnA50"
+            },
+            "snippet": {
+                "publishedAt": "2024-11-18T11:16:19Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Am I My Brother&#39;s Keeper?",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4Afry4pnA50/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4Afry4pnA50/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4Afry4pnA50/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-11-18T11:16:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PV-bdFqndCoqmQoapit-Qtzm9T0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7hExd__aMTM"
+            },
+            "snippet": {
+                "publishedAt": "2025-01-27T11:17:01Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Surviving The Lions",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7hExd__aMTM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7hExd__aMTM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7hExd__aMTM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-01-27T11:17:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JWmUDzQbU6qJo7T-zfHQUKhNxH8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NkLCHZTljrQ"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-22T03:32:31Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Disappointments Aid Direction",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NkLCHZTljrQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NkLCHZTljrQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NkLCHZTljrQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-22T03:32:31Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vX1s8HDvRHcxUm9KuaWBvqXqY4k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "1aJfvXvYN70"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-28T12:15:26Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "When Things Are Set In Order",
+                "description": "A very warm welcome to our Tuesday Evening Service! We at Enterprise Bible Baptist Church are glad to have you with us.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1aJfvXvYN70/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1aJfvXvYN70/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1aJfvXvYN70/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-28T12:15:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "DTdltb29KF_mm4kAkscEcRlqJiA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fHsVEru01w0"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-31T12:19:39Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Beholding the Power but Not The Person of God",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fHsVEru01w0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fHsVEru01w0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fHsVEru01w0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-31T12:19:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nyioh_VpYWagmyy72Q-71TdWHCM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dVVOyG4EB2Q"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-30T11:35:02Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Being Vigilant in The Last Days",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dVVOyG4EB2Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dVVOyG4EB2Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dVVOyG4EB2Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-30T11:35:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VtdCLu6qXdEkWovwnQOVHT_NKXI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OKednvP_Sf4"
+            },
+            "snippet": {
+                "publishedAt": "2024-10-07T11:17:53Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Repent Ye and Believe.",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OKednvP_Sf4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OKednvP_Sf4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OKednvP_Sf4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-10-07T11:17:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "b2B_o84it1DDIsG5GCOo7l36lAc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "prlCxKKqD7c"
+            },
+            "snippet": {
+                "publishedAt": "2024-04-03T12:13:56Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "How Is It Possible To Forget God?",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/prlCxKKqD7c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/prlCxKKqD7c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/prlCxKKqD7c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-04-03T12:13:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4lGu0BPBAtBO7Z7tH2aFZ6jGUUg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_pDTjC09zgY"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-12T03:34:57Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "Have you heard of the God of the man?",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_pDTjC09zgY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_pDTjC09zgY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_pDTjC09zgY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-12T03:34:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "CQOEY4VQ6DAv90z37Dwi5R9L3Bc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "e-yr6fi-e5E"
+            },
+            "snippet": {
+                "publishedAt": "2025-01-20T11:10:40Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "We Need the Comforter",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/e-yr6fi-e5E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/e-yr6fi-e5E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/e-yr6fi-e5E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-01-20T11:10:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "u-NTgxxDgtITLy4k1jY1G-3ShHo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NB0ZQgx3afE"
+            },
+            "snippet": {
+                "publishedAt": "2024-12-02T03:49:25Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "God Is A Refiner",
+                "description": "A very warm welcome to our Sunday Morning Service! We at Enterprise Bible Baptist Church are glad to have you with us. Please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NB0ZQgx3afE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NB0ZQgx3afE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NB0ZQgx3afE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-12-02T03:49:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JNvd8ngrjiY5pfjeH6FAWkThlAI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KczRlo1HcU8"
+            },
+            "snippet": {
+                "publishedAt": "2025-01-22T12:18:39Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "A Faithful Work",
+                "description": "A very warm welcome to our Tuesday Evening Service! We at Enterprise Bible Baptist Church are glad to have you with us.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KczRlo1HcU8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KczRlo1HcU8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KczRlo1HcU8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2025-01-22T12:18:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0obdlTIu55AfMsZBPH2OdrAj43E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "01WU5v1gcxw"
+            },
+            "snippet": {
+                "publishedAt": "2024-05-29T12:11:30Z",
+                "channelId": "UCxKPidrU1v0sMAGoIs9HVRA",
+                "title": "The Secret of Success",
+                "description": "A very warm welcome to our Tuesday Evening Service! We at Enterprise Bible Baptist Church are glad to have you with us please ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/01WU5v1gcxw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/01WU5v1gcxw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/01WU5v1gcxw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Enterprise Bible Baptist Church",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-05-29T12:11:30Z"
+            }
+        }
+    ]
+}
