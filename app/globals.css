@@ -510,6 +510,7 @@ iframe{
   display:grid;
   grid-template-columns: 1fr;
   gap:15px;
+  justify-items: center;
   padding-block:15px;
   max-width:600px;
   margin:auto;
