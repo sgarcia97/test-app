@@ -86,7 +86,7 @@ const Countdown = () => {
         // If the count down is finished, write some text
       if (distance < 0) {
           clearInterval(x);
-          setStart(true) 
+          setStart(false) 
       }
       }, 1000);
       
