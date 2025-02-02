@@ -509,7 +509,7 @@ iframe{
 
 .video-title{
   color:#bababa;
-  
+
 }
 
 .live-wrapper{
@@ -521,6 +521,7 @@ iframe{
 .live-title{
   text-transform: capitalize;
   color:#999999;
+  padding-inline:15px;
 }
 
 .video-modal{
