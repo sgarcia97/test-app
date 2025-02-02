@@ -25,8 +25,8 @@ export const YoutubeEmbed = (props) => {
       <div className="live-video">
              <iframe className="iframe"
       
-      width="auto"
-      height="400px"
+      width="100%"
+      height="auto"
       src={`https://www.youtube.com/embed/${props.data.vid}`}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
