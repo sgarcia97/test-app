@@ -11,7 +11,6 @@ const YoutubePlaylist = () => {
       setModal(true)
       setVid(vidd)
     }
-    /*
     useEffect(()=>{
       const getYoutubeData = async () => {
         const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
@@ -26,8 +25,6 @@ const YoutubePlaylist = () => {
       getYoutubeData()
       
     },[])
-    */
-   setData(staticData)
     if (!data) return (
     <div className="message">Getting Videos...</div>
  
