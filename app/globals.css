@@ -507,12 +507,8 @@ iframe{
 }
 
 .live-wrapper{
-  display:grid;
-  grid-template-columns: 1fr;
-  gap:15px;
-  justify-items: center;
   padding-block:15px;
-  max-width:600px;
+  max-width:1000px;
   margin:auto;
 }
 
