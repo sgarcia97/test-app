@@ -23,7 +23,7 @@ const YoutubeLive = (props) => {
       
       {data.items.length == 0 && props.type == "live" && <div className="message">Live stream not available right now</div>}
         <div className="live-wrapper">
-        <div>{props.type}</div>
+        <div className="live-title">{props.type}</div>
         {
          
           data.items.map((p) => {
