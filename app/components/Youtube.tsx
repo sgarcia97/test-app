@@ -23,8 +23,15 @@ export const YoutubeEmbed = (props) => {
   
     return (
       <div className="live-video">
-            <iframe src={`https://www.youtube.com/watch?v=${props.data.vid}`} key={props.data.etag}/>
-              
+             <iframe className="iframe"
+      
+      width="auto"
+      height="100%"
+      src={`https://www.youtube.com/embed/${props.vid}`}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
               <div className="video-content">
               <div className="video-title">{props.data.title}</div>
               </div>
