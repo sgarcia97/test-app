@@ -1,16 +1,17 @@
 "use client"
 import {useState, useEffect} from "react"
-import {VideoModal,Youtube} from "../components/Youtube"
+import {Youtube} from "../components/Youtube"
 import staticData from "../components/dataa.json"
 const YoutubePlaylist = () => {
     const [data, setData] = useState(null)
     const [modal, setModal] = useState(false)
     const [vid, setVid] = useState(null)
-  console.log(vid)
     const handleModal = (vidd:string) => {
       setModal(true)
       setVid(vidd)
+      console.log("access")
     }
+    /*
     useEffect(()=>{
       const getYoutubeData = async () => {
         const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
@@ -18,20 +19,20 @@ const YoutubePlaylist = () => {
         if(request.ok){
           const ydata = await request.json();
           setData(ydata)
-          console.log(ydata)
         }
-        
       }
       getYoutubeData()
-      
     },[])
-    if (!data) return (
-    <div className="message">Getting Videos...</div>
- 
-  )
+    */
+    useEffect(()=>{
+      setData(staticData)
+    },[])
+   
+    if (!data) return <div className="message">Getting Videos...</div>
+  
     return (
       <>
-      {modal && <VideoModal vid={vid}/>}
+
         <div className="video-wrapper"> 
         {
           data.items.map((p:any) => {
@@ -47,7 +48,7 @@ const YoutubePlaylist = () => {
                       }
 
               if(d.vid){        
-                return <Youtube key={p.etag} data={d} onClick={()=>handleModal(p.id.videoId)}/>
+                return <Youtube key={p.etag} data={d} />
               }
         
 })

@@ -532,9 +532,10 @@ iframe{
   left:0px;
   justify-content: center;
   justify-items: center;
-  align-items: center;
+  align-items: start;
   right:0px;
-  background-color:#000000;
+  background-color:rgba(0,0,0,0.8);
+  backdrop-filter:blur(20px);
   z-index:50;
   bottom:0px;
   height:500px;
@@ -851,6 +852,25 @@ a:hover{
 
     .video-wrapper{
       grid-template-columns: 1fr;
+    }
+
+    .video-content{
+      padding-inline:10px;
+      padding-block:2px;
+    }
+
+    .video{
+      display:flex;
+      flex-flow:row nowrap;
+
+    }
+
+    .video-title{
+      position:relative;
+    }
+
+    .video-image{
+ 
     }
 
     .video{
