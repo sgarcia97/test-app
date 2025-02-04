@@ -11,10 +11,10 @@ const YoutubePlaylist = () => {
       setVid(vidd)
       console.log("access")
     }
-    /*
+    
     useEffect(()=>{
       const getYoutubeData = async () => {
-        const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q="enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
+        const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCxKPidrU1v0sMAGoIs9HVRA&maxResults=100&order=date&q=enterprisebiblebaptistchurch&key=${process.env.NEXT_PUBLIC_YOUTUBE_API}`;
         const request = await fetch(url);
         if(request.ok){
           const ydata = await request.json();
@@ -23,10 +23,10 @@ const YoutubePlaylist = () => {
       }
       getYoutubeData()
     },[])
-    */
-    useEffect(()=>{
-      setData(staticData)
-    },[])
+    
+    //useEffect(()=>{
+      //setData(staticData)
+   // },[])
    
     if (!data) return <div className="message">Getting Videos...</div>
   
