@@ -26,7 +26,7 @@ const Countdown = () => {
         // Find the difference between the current day and the one you want
         // If it's the same day as today (or a negative number), jump to the next week
         let diff = day - now;
-        diff = diff < 1 ? 7 + diff : diff;
+        diff = diff < 0 ? 7 + diff : diff;
     
         // Get the timestamp for the desired day
         let nextDayTimestamp = date.getTime() + (1000 * 60 * 60 * 24 * diff);
