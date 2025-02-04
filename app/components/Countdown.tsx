@@ -50,11 +50,11 @@ const Countdown = () => {
       let t2 = "Sunday Evening Service";
       let t3 = "Prayer & Bible Study";
       let cal, t = null;
-      if(wd == 2 && ti > 19 || wd > 2){cal = sm; t = t1;}else{
+      if((wd == 2 && ti > 20) || wd > 2){cal = sm; t = t1;}else{
           if(wd == 2 && ti < 19){cal = pbs; t = t3;}else{ 
               if(wd == 0 && ti < 10){cal = sm; t = t1;} else{
-      if(wd == 0 && ti > 10){cal = se; t = t2;}else{
-          if(wd == 0 && ti > 17 || wd == 1){cal = pbs; t = t3;}else{cal = "";}    
+      if(wd == 0 && ti >= 13){cal = se; t = t2;}else{
+          if((wd == 0 && ti > 19) || wd == 1){cal = pbs; t = t3;}else{cal = "";}    
       }
       }}}
       // Set the date we're counting down to
@@ -86,11 +86,11 @@ const Countdown = () => {
         // If the count down is finished, write some text
       if (distance < 0) {
           clearInterval(x);
-          setStart(false) 
+          setStart(true) 
       }
       }, 1000);
       
-      return () => clearInterval(x)
+      //return () => clearInterval(x)
 
   },[])
   
