@@ -42,8 +42,9 @@ const Countdown = () => {
       let pbsF = getNextDay("tuesday") + " 19:30:00";
       let smF = getNextDay("sunday") + " 10:30:00";
       let seF = getNextDay("sunday") + " 18:30:00";
-      let pbs = new Date(pbsF).toLocaleString('en-US', { timeZone: 'America/Port_of_Spain' }).getTime();
-      let sm = new Date(smF).getTime();
+      let pbsadj = new Date(pbsF).toLocaleString('en-US', { timeZone: 'America/Port_of_Spain' });
+      let pbs = pbsadj.getTime();
+let sm = new Date(smF).getTime();
       let se = new Date(seF).getTime();
       //let md = new Date().getTime();
       let t1 = "Sunday Morning Service";
