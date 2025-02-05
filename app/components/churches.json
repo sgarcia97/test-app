@@ -32,7 +32,7 @@
     {
         "name":"Chaguanas Fundamental Baptist Church",
         "location": "Enterprise Street, Enterprise, Chaguanas",
-        "pastor": "Pastor Roy Pustam",
+        "pastor": "Pastor George Mohammed",
         "country": "Trinidad and Tobago",
         "url":"",
         "location_url": "https://www.google.com/maps/dir//GJ97%2BH83+Chaguanas+Fundamental+Baptist+Church,+Enterprise+Street,+Enterprise,+Trinidad+and+Tobago/@10.5189105,-61.3969849,15z/data=!4m17!1m7!3m6!1s0x8c35f9ce8a634247:0xac5a40c339f2cdb7!2sChaguanas+Fundamental+Baptist+Church!8m2!3d10.5188896!4d-61.3867066!16s%2Fg%2F11jmwwcp2q!4m8!1m0!1m5!1m1!1s0x8c35f9ce8a634247:0xac5a40c339f2cdb7!2m2!1d-61.3867146!2d10.5188899!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
@@ -73,6 +73,14 @@
         "name":"Cornerstone Baptist Church",
         "location": "Naparima Mayaro Rd, Princes Town",
         "pastor": "Pastor Jerry Ward",
+        "country": "Trinidad and Tobago",
+        "url":"",
+        "location_url":"https://www.google.ca/maps/dir//Cornerstone+Baptist+Church,+Naparima+Mayaro+Rd,+Trinidad+and+Tobago/@10.4892277,-61.7900853,10z/data=!4m18!1m8!3m7!1s0x8c358b48801996ef:0x9be58fc21f29b3e2!2sCornerstone+Baptist+Church!8m2!3d10.2700466!4d-61.3660666!15sCiNjb3JuZXJzdG9uZSBiYXB0aXN0IGNodXJjaCB0cmluaWRhZJIBBmNodXJjaOABAA!16s%2Fg%2F11hdts4tjb!4m8!1m0!1m5!1m1!1s0x8c358b48801996ef:0x9be58fc21f29b3e2!2m2!1d-61.3660522!2d10.270018!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3Do"
+    },
+    {
+        "name":"Calvary Fundamental Baptist Church",
+        "location": "Point Fortin",
+        "pastor": "Pastor George Mohammed",
         "country": "Trinidad and Tobago",
         "url":"",
         "location_url":"https://www.google.ca/maps/dir//Cornerstone+Baptist+Church,+Naparima+Mayaro+Rd,+Trinidad+and+Tobago/@10.4892277,-61.7900853,10z/data=!4m18!1m8!3m7!1s0x8c358b48801996ef:0x9be58fc21f29b3e2!2sCornerstone+Baptist+Church!8m2!3d10.2700466!4d-61.3660666!15sCiNjb3JuZXJzdG9uZSBiYXB0aXN0IGNodXJjaCB0cmluaWRhZJIBBmNodXJjaOABAA!16s%2Fg%2F11hdts4tjb!4m8!1m0!1m5!1m1!1s0x8c358b48801996ef:0x9be58fc21f29b3e2!2m2!1d-61.3660522!2d10.270018!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3Do"
