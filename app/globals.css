@@ -770,7 +770,6 @@ i{
   text-decoration: none;
   -webkit-transition:all 0.2s ease-in-out;
   transition:all 0.2s ease-in-out;
-
 }
 
 .def-link{
@@ -778,7 +777,7 @@ i{
 }
 
 .def-link:hover{
-  color:#ffffff;
+  color:var(--pink);
 }
 
 a{

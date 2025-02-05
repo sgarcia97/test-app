@@ -51,7 +51,7 @@ const Countdown = () => {
       let t2 = "Sunday Evening Service";
       let t3 = "Prayer & Bible Study";
       let cal, t = null;
-      if(wd >= 2){
+      if(wd == 2){
         if(ti < 19){
           cal = pbs; t = t3;
         }else if(ti >= 19 && ti < 21){
@@ -59,6 +59,8 @@ const Countdown = () => {
         }else if(ti >= 21){
           cal = sm; t = t1;
         }
+      }else if(wd > 2){
+          cal = sm; t = t1;
       }
       else if(wd == 0){
         if(ti < 10){
