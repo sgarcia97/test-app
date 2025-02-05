@@ -9,7 +9,7 @@ const Page = () => {
             <div className="church-wrapper">
         {
            churches.map(c => {
-            let url = c.url && <span> &#8226; <Link className="def-link" target="_blank" href={c.url}>Visit website</Link></span>
+            let url = c.url && <> &#8226; <Link className="def-link" target="_blank" href={c.url}>Visit website</Link></>
             return(
             <div key={c.name} className="church">
                 <div className="church-name">{c.name}</div>
