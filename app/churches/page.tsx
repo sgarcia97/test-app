@@ -20,8 +20,8 @@ const handleSort = (event) => {
          <Template title="Churches">
             <div className="church-header">
             <select onChange={handleSort}>
-                <option value="name">Name</option>
-                <option value="country">Country</option>
+                <option value="name">Sort by Name</option>
+                <option value="country">Sort by Country</option>
             </select>
             <div>List sorted by &quot;{sort}&quot;</div>
             </div>

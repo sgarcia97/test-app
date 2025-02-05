@@ -370,12 +370,17 @@ option{
   background-color:#303030;
   border:none;
   border-radius:5px;
-  color:#fff;
-  font-family:lex;
+  color:#ababab;
+  font-family:jr;
   font-weight:300;
   padding:5px;
-  
+  outline:none;
   font-size: var(--small);
+}
+
+.church-header select:focus{
+  outline:solid 3px rgba(50,50,50,0.3);
+  outline-offset: 1px;
 }
 
 .church{
@@ -877,6 +882,7 @@ a:hover{
     border-radius: 0px;
     width:auto;
   }
+
   
   .footer-section-wrapper{
     flex-flow:column nowrap;
