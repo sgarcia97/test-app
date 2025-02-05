@@ -4,30 +4,31 @@ import Template from "../components/Template"
 import {useState, useEffect} from "react"
 import Link from "next/link"
 const Page = () => {
-const [sort, setSort] = useState('')
+const [sort, setSort] = useState('name')
 const [search, setSearch] = useState('')
 const [churchesf, setChurchesf] = useState(churches)
 
 const handleSort = (event) => {
+    const results = churches.sort((a,b)=>{
+        if(event.target.value == "name"){
+            return (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0;
+        }
+        if(event.target.value == "country"){    
+            return (a.country > b.country) ? 1 : (a.country < b.country) ? -1 : 0;  
+        }
+        })
         setSort(event.target.value)
-        let c = churches.sort((a,b)=>{
-            if(sort == "name")
-                return (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0
-            if(sort == "country")  
-                return (a.country > b.country) ? 1 : (a.country < b.country) ? -1 : 0
-            })
-            setChurchesf(c)
-            console.log(churchesf)
+        setChurchesf(results)
     }
 
-
 const handleSearch = (event) => {
+    const results = churches.filter((church) => {
+        if(event.target.value === '') return churches 
+        return church.name.toLowerCase().includes(event.target.value.toLowerCase())
+        }
+    )
     setSearch(event.target.value)
-    let c = churches.filter((church) => {
-        return church.name == search;
-    })
-    setChurchesf(c)
-    console.log(churchesf)
+    setChurchesf(results)
 }
     return(
         <>
@@ -35,7 +36,6 @@ const handleSearch = (event) => {
             <div className="church-header">
                 <input placeholder="Search churches" type="search" onInput={handleSearch}/>
             <select onChange={handleSort}>
-                <option value="">Select</option>
                 <option value="name">Sort by Name</option>
                 <option value="country">Sort by Country</option>
             </select>
@@ -43,7 +43,7 @@ const handleSearch = (event) => {
             </div>
             <div className="church-wrapper">
         {
-         
+      
         
            churchesf.map(c => {
             let url = c.url && <> &#8226; <Link className="def-link" target="_blank" href={c.url}>Visit website</Link></>
