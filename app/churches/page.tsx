@@ -2,13 +2,19 @@ import churches from "../components/churches.json"
 import Template from "../components/Template"
 import Link from "next/link"
 const Page = () => {
-
+let churchesf = churches.sort((a,b)=>{
+    if (a.name > b.name) return 1
+    if(a.name < b.name) return -1
+    return 0
+})
     return(
         <>
          <Template title="Churches">
             <div className="church-wrapper">
         {
-           churches.map(c => {
+         
+        
+           churchesf.map(c => {
             let url = c.url && <> &#8226; <Link className="def-link" target="_blank" href={c.url}>Visit website</Link></>
             return(
             <div key={c.name} className="church">
