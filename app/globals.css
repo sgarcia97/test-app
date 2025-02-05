@@ -352,6 +352,32 @@ align-items: center;
   gap:15px
 }
 
+.church-header{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  margin-bottom:10px;
+  font-size:var(--small);
+  color:#bababa;
+  align-items:center;
+}
+
+option{
+  font-weight:300;
+}
+
+.church-header select{
+  background-color:#303030;
+  border:none;
+  border-radius:5px;
+  color:#fff;
+  font-family:lex;
+  font-weight:300;
+  padding:5px;
+  
+  font-size: var(--small);
+}
+
 .church{
   display: grid;
   padding-inline: 15px;

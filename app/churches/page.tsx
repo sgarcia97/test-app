@@ -1,15 +1,30 @@
+'use client'
 import churches from "../components/churches.json"
 import Template from "../components/Template"
+import {useState} from "react"
 import Link from "next/link"
 const Page = () => {
+const [sort, setSort] = useState('name')
 let churchesf = churches.sort((a,b)=>{
-    if (a.name > b.name) return 1
-    if(a.name < b.name) return -1
-    return 0
+if(sort == "name")
+    return (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0
+if(sort == "country")  
+    return (a.country > b.country) ? 1 : (a.country < b.country) ? -1 : 0
 })
+
+const handleSort = (event) => {
+    setSort(event.target.value)
+}
     return(
         <>
          <Template title="Churches">
+            <div className="church-header">
+            <select onChange={handleSort}>
+                <option value="name">Name</option>
+                <option value="country">Country</option>
+            </select>
+            <div>List sorted by &quot;{sort}&quot;</div>
+            </div>
             <div className="church-wrapper">
         {
          
