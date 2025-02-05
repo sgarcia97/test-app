@@ -30,7 +30,7 @@ const Countdown = () => {
     
         // Get the timestamp for the desired day
         let nextDayTimestamp = date.getTime() + (1000 * 60 * 60 * 24 * diff);
-        let dd = new Date(nextDayTimestamp).toLocaleDateString("en-US",{timeZone: "America/Port_of_Spain"});
+        let dd = new Date(nextDayTimestamp).toLocaleDateString("en-US")//,{timeZone: "America/Port_of_Spain"});
 
         // Get the next day
         return dd;
@@ -39,25 +39,43 @@ const Countdown = () => {
       let nd = new Date();
       let wd = nd.getDay();
       let ti = nd.getHours();
-      let pbsF = getNextDay("tuesday") + " 19:30:00";
-      let smF = getNextDay("sunday") + " 10:30:00";
-      let seF = getNextDay("sunday") + " 18:30:00";
-      let pbsadj = new Date(pbsF).toLocaleString('en-US', { timeZone: 'America/Port_of_Spain' });
-      let pbs = new Date(pbsadj).getTime();
-let sm = new Date(smF).getTime();
+      let pbsF = getNextDay("tuesday") + " 19:00:00";
+      let smF = getNextDay("sunday") + " 10:00:00";
+      let seF = getNextDay("sunday") + " 18:00:00";
+      let pbsadj = new Date(pbsF).toLocaleString('en-US')//, { timeZone: 'America/Port_of_Spain' });
+      let pbs = new Date(pbsadj).getTime(); 
+      let sm = new Date(smF).getTime();
       let se = new Date(seF).getTime();
-      //let md = new Date().getTime();
+
       let t1 = "Sunday Morning Service";
       let t2 = "Sunday Evening Service";
       let t3 = "Prayer & Bible Study";
       let cal, t = null;
-      if((wd == 2 && ti > 20) || wd > 2){cal = sm; t = t1;}else{
-          if(wd == 2 && ti < 19){cal = pbs; t = t3;}else{ 
-              if(wd == 0 && ti < 10){cal = sm; t = t1;} else{
-      if(wd == 0 && ti >= 13){cal = se; t = t2;}else{
-          if((wd == 0 && ti > 19) || wd == 1){cal = pbs; t = t3;}else{cal = "";}    
+      if(wd >= 2){
+        if(ti < 19){
+          cal = pbs; t = t3;
+        }else if(ti >= 19 && ti < 21){
+          cal = ''; t = t3;
+        }else if(ti >= 21){
+          cal = sm; t = t1;
+        }
       }
-      }}}
+      else if(wd == 0){
+        if(ti < 10){
+          cal = sm; t = t1;
+        }else if(ti >= 10 && ti < 13){
+          cal = ''; t = t1;
+        }else if(ti >= 13 && ti < 18){
+          cal = se; t = t2;
+        }else if(ti >= 18 && ti < 20){
+          cal = ''; t = t2
+        }else if(ti >= 20){
+          cal = pbs; t = t3;
+        } 
+      }else if(wd == 1){
+          cal = pbs; t = t3;
+      }
+     
       // Set the date we're counting down to
       let countDownDate = cal;
       
@@ -88,10 +106,14 @@ let sm = new Date(smF).getTime();
       if (distance < 0) {
           clearInterval(x);
           setStart(true) 
+          setSec(0)
+          setMin(0)
+          setHour(0)
+          setDay(0)
       }
       }, 1000);
       
-      //return () => clearInterval(x)
+      return () => clearInterval(x)
 
   },[])
   
