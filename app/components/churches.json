@@ -3,5 +3,40 @@
         "name":"Harvest Baptist Church",
         "location": "2 Eccles Trace, Curepe",
         "pastor": "Pastor Roy Pustam"
+    },
+    {
+        "name":"Central Baptist Church",
+        "location": "Freeport",
+        "pastor": "Pastor Andy"
+    },
+    {
+        "name":"Trnity Baptist Church",
+        "location": "La Horquetta",
+        "pastor": "Pastor Keith Lovelace"
+    },
+    {
+        "name":"Faith Fundamental Baptist Church",
+        "location": "104 Olton Trace, Arima",
+        "pastor": "Pastor Steven Johanitan"
+    },
+    {
+        "name":"Chaguanas Fundamental Baptist Church",
+        "location": "Enterprise Street, Enterprise, Chaguanas",
+        "pastor": "Pastor Roy Pustam"
+    },
+    {
+        "name":"Charity Baptist Church",
+        "location": "La Romain",
+        "pastor": "Pastor Akinde"
+    },
+    {
+        "name":"Hope Fundamental Baptist Church",
+        "location": "La Horquetta",
+        "pastor": "Pastor Jitemdra Berment"
+    },
+    {
+        "name":"Bethel Fundamental Baptist Church",
+        "location": "Kelly Kenny Street, Woodbrook",
+        "pastor": "Pastor Rawlie Cooper"
     }
 ]

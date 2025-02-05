@@ -346,6 +346,29 @@ align-items: center;
   justify-content:center;
 }
 
+.church-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:15px
+}
+
+.church{
+  display: grid;
+  padding-inline: 15px;
+  border-radius: 15px;
+  padding-block:7px;
+  border:solid 1px #252525;
+}
+
+.church-name{
+  font-size: var(--medium);
+}
+
+.church-location{
+  color:#bababa;
+  font-size: var(--small);
+}
+
 .card{
   display:grid;
   gap:10px;
@@ -796,6 +819,8 @@ a:hover{
   .page-title{
     font-size:5rem;
   }
+
+
 
   .card-wrapper{
     display:grid;
