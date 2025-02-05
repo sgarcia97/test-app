@@ -1,5 +1,6 @@
 import churches from "../components/churches.json"
 import Template from "../components/Template"
+import Link from "next/link"
 const Page = () => {
 
     return(
@@ -11,7 +12,7 @@ const Page = () => {
             return(
             <div key={c.name} className="church">
                 <div className="church-name">{c.name}</div>
-                <div className="church-location">{c.location}</div>
+                <div className="church-location">{c.country} | {c.location} | <Link className="def-link" target="_blank" href={c.location_url}>Get directions</Link></div>
                 <div>{c.pastor}</div>
             </div>)
            })

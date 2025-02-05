@@ -1,42 +1,80 @@
 [
     {
         "name":"Harvest Baptist Church",
-        "location": "2 Eccles Trace, Curepe",
-        "pastor": "Pastor Roy Pustam"
+        "location": "3 Eccles Trace, Curepe",
+        "pastor": "Pastor Roy Pustam",
+        "country": "Trinidad and Tobago",
+        "url": "https://www.facebook.com/HarvestBaptistTrinidad",
+        "location_url": "https://www.google.com/maps/dir//Harvest+Baptist+Church,+3+Eccles+Trace,+Trinidad+and+Tobago/@10.6357226,-61.4200323,15z/data=!4m17!1m7!3m6!1s0x8c3601658d3329ef:0xb7e66cfb0f814a81!2sHarvest+Baptist+Church!8m2!3d10.6357017!4d-61.409754!16s%2Fg%2F11gq_sx_2k!4m8!1m0!1m5!1m1!1s0x8c3601658d3329ef:0xb7e66cfb0f814a81!2m2!1d-61.409754!2d10.6357017!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Central Baptist Church",
-        "location": "Freeport",
-        "pastor": "Pastor Andy"
+        "location": "1 John, Persad Tr, Chase Village",
+        "pastor": "Pastor Andy",
+        "country": "Trinidad and Tobago",
+        "location_url": "https://www.google.com/maps/dir//Central+Baptist+Church,+1+John,+Persad+Tr,+Chase+Village,+Trinidad+and+Tobago/@10.5962207,-61.5994558,10z/data=!4m18!1m8!3m7!1s0x8c35f7a8325888db:0x89f275d60f4b9d8f!2sCentral+Baptist+Church!8m2!3d10.4698198!4d-61.4146504!15sCh9jZW50cmFsIEJhcHRpc3QgQ2h1cmNoIHRyaW5pZGFkWiEiH2NlbnRyYWwgYmFwdGlzdCBjaHVyY2ggdHJpbmlkYWSSAQZjaHVyY2iaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTXlkQzFRV1V4bkVBReABAPoBBAgAECk!16s%2Fg%2F11rv5jj9q3!4m8!1m0!1m5!1m1!1s0x8c35f7a8325888db:0x89f275d60f4b9d8f!2m2!1d-61.414655!2d10.4697499!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Trnity Baptist Church",
-        "location": "La Horquetta",
-        "pastor": "Pastor Keith Lovelace"
+        "location": "Tecoma Blvd, La Horquetta",
+        "pastor": "Pastor Keith Lovelace",
+        "country": "Trinidad and Tobago",
+        "location_url": "https://www.google.com/maps/dir//Trinity+Baptist+Church,+Tecoma+Blvd,+Trinidad+and+Tobago/@10.5956954,-61.2807691,15z/data=!4m17!1m7!3m6!1s0x8c4a01b0c5b6a929:0x4714cf58bb222376!2sTrinity+Baptist+Church!8m2!3d10.5956745!4d-61.2704908!16s%2Fg%2F11bzv027f8!4m8!1m0!1m5!1m1!1s0x8c4a01b0c5b6a929:0x4714cf58bb222376!2m2!1d-61.2704617!2d10.5957951!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Faith Fundamental Baptist Church",
         "location": "104 Olton Trace, Arima",
-        "pastor": "Pastor Steven Johanitan"
+        "pastor": "Pastor Steven Johanitan",
+        "country": "Trinidad and Tobago",
+        "url":"",
+        "location_url":"https://www.google.com/maps/dir//Faith+Fundamental+Baptist+Tabernacle,+104+Olton+Rd,+Trinidad+and+Tobago/@10.6304887,-61.3049191,15z/data=!4m17!1m7!3m6!1s0x8c49ff8f29874ac7:0x885a8b9bc0e99dc0!2sFaith+Fundamental+Baptist+Tabernacle!8m2!3d10.6304678!4d-61.2946408!16s%2Fg%2F1pyqjzj77!4m8!1m0!1m5!1m1!1s0x8c49ff8f29874ac7:0x885a8b9bc0e99dc0!2m2!1d-61.2946412!2d10.6304678!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Chaguanas Fundamental Baptist Church",
         "location": "Enterprise Street, Enterprise, Chaguanas",
-        "pastor": "Pastor Roy Pustam"
+        "pastor": "Pastor Roy Pustam",
+        "country": "Trinidad and Tobago",
+        "url":"",
+        "location_url": "https://www.google.com/maps/dir//GJ97%2BH83+Chaguanas+Fundamental+Baptist+Church,+Enterprise+Street,+Enterprise,+Trinidad+and+Tobago/@10.5189105,-61.3969849,15z/data=!4m17!1m7!3m6!1s0x8c35f9ce8a634247:0xac5a40c339f2cdb7!2sChaguanas+Fundamental+Baptist+Church!8m2!3d10.5188896!4d-61.3867066!16s%2Fg%2F11jmwwcp2q!4m8!1m0!1m5!1m1!1s0x8c35f9ce8a634247:0xac5a40c339f2cdb7!2m2!1d-61.3867146!2d10.5188899!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Charity Baptist Church",
-        "location": "La Romain",
-        "pastor": "Pastor Akinde"
+        "location": "94 S.S. Erin Rd, Phillipine",
+        "pastor": "Pastor Akinde",
+        "country": "Trinidad and Tobago",
+        "url":"",
+        "location_url":"https://www.google.com/maps/dir//Charity+Baptist+Church,+94+S.S.+Erin+Rd,+Phillipine,+Trinidad+and+Tobago/@10.2444752,-61.4656621,15z/data=!4m17!1m7!3m6!1s0x8c358d0054817ca9:0xce38c02fedfbdea9!2sCharity+Baptist+Church!8m2!3d10.2444542!4d-61.4553838!16s%2Fg%2F11lf535ms7!4m8!1m0!1m5!1m1!1s0x8c358d0054817ca9:0xce38c02fedfbdea9!2m2!1d-61.4553891!2d10.244444!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Hope Fundamental Baptist Church",
-        "location": "La Horquetta",
-        "pastor": "Pastor Jitemdra Berment"
+        "location": "Bethesda Trace, Plymouth",
+        "pastor": "Pastor Jitemdra Berment",
+        "country": "Trinidad and Tobago",
+        "url":"",
+        "location_url":"https://www.google.com/maps/dir//Hope+Fundamental+Baptist+Tabernacle,+Bethesda+Trace,+Plymouth,+Trinidad+and+Tobago/@11.2229484,-60.7809799,15z/data=!4m17!1m7!3m6!1s0x8c484d55b4d9bd21:0x3a31b64a1d9cc91e!2sHope+Fundamental+Baptist+Tabernacle!8m2!3d11.2229275!4d-60.7707016!16s%2Fg%2F11cp5v_975!4m8!1m0!1m5!1m1!1s0x8c484d55b4d9bd21:0x3a31b64a1d9cc91e!2m2!1d-60.7707129!2d11.2229554!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         "name":"Bethel Fundamental Baptist Church",
         "location": "Kelly Kenny Street, Woodbrook",
-        "pastor": "Pastor Rawlie Cooper"
+        "pastor": "Pastor Rawlie Cooper",
+        "country": "Trinidad and Tobago",
+        "url":"bethelfbt.org",
+        "location_url":"https://www.google.ca/maps/dir//Redeemed+Fundamental+Baptist+Church,+74+Sea+Girt+Lane,+Mayaro,+Trinidad+and+Tobago/@10.2927992,-61.0117705,15z/data=!4m17!1m7!3m6!1s0x8c4a6b42f9928695:0x4cb3791be47636b9!2sRedeemed+Fundamental+Baptist+Church!8m2!3d10.2927782!4d-61.0014922!16s%2Fg%2F11sfb4dvq2!4m8!1m0!1m5!1m1!1s0x8c4a6b42f9928695:0x4cb3791be47636b9!2m2!1d-61.0014922!2d10.2927782!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        "name":"Redeemed Fundamental Baptist Church",
+        "location": "74 Sea Girt Lane, Mayaro",
+        "pastor": "Pastor Jerry Ward",
+        "country": "Trinidad and Tobago",
+        "url": "https://www.facebook.com/share/g/19dopMozMt/",
+        "location_url":"https://www.google.ca/maps/dir//Redeemed+Fundamental+Baptist+Church,+74+Sea+Girt+Lane,+Mayaro,+Trinidad+and+Tobago/@10.2927992,-61.0117705,15z/data=!4m17!1m7!3m6!1s0x8c4a6b42f9928695:0x4cb3791be47636b9!2sRedeemed+Fundamental+Baptist+Church!8m2!3d10.2927782!4d-61.0014922!16s%2Fg%2F11sfb4dvq2!4m8!1m0!1m5!1m1!1s0x8c4a6b42f9928695:0x4cb3791be47636b9!2m2!1d-61.0014922!2d10.2927782!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        "name":"Cornerstone Baptist Church",
+        "location": "Naparima Mayaro Rd, Princes Town",
+        "pastor": "Pastor Jerry Ward",
+        "country": "Trinidad and Tobago",
+        "url":"",
+        "location_url":"https://www.google.ca/maps/dir//Cornerstone+Baptist+Church,+Naparima+Mayaro+Rd,+Trinidad+and+Tobago/@10.4892277,-61.7900853,10z/data=!4m18!1m8!3m7!1s0x8c358b48801996ef:0x9be58fc21f29b3e2!2sCornerstone+Baptist+Church!8m2!3d10.2700466!4d-61.3660666!15sCiNjb3JuZXJzdG9uZSBiYXB0aXN0IGNodXJjaCB0cmluaWRhZJIBBmNodXJjaOABAA!16s%2Fg%2F11hdts4tjb!4m8!1m0!1m5!1m1!1s0x8c358b48801996ef:0x9be58fc21f29b3e2!2m2!1d-61.3660522!2d10.270018!3e3?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3Do"
     }
 ]
