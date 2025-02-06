@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Logo from "../../public/logo.png"
 import BibleVerse from "../components/Bible"
+import Churches from "../components/churches.json"
 type Footerprop = {
 
 }
@@ -40,17 +41,11 @@ const Footer = (props: Footerprop) => {
                 </div>
                 <div className="footer-section">
                     <div className="footer-section-title">Partner Churches</div>
-                    <div><Link className="def-link" href="">Harvest Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Central Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Faith Fundamental Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Redeemed Fundamental Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Cornerstone Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Hope Fundamental Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Trinity Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Chaguanas Fundamental Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Charity Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Bethel Fundamental Baptist Church</Link></div>
-                    <div><Link className="def-link" href="">Calvary Fundamental Baptist Church</Link></div>
+                    {
+                        Churches.map((church)=>{
+                            return <div key={church.name}><Link className="def-link" target="_blank" href={church.location_url}>{church.name}</Link></div>
+                        })
+                    }
                 </div>
                 <div className="footer-section">
                 <div className="footer-section-title">Contact Us</div>
