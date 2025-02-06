@@ -35,7 +35,7 @@ export default function Page() {
         <Card 
         title="Pay us a Visit" 
         img={<TbLocationPin className="icon-small"/>}
-        desc="We are located at the corner of Dass and Nimblette Street, Enterprise, Chaguanas" blink="/contact" bname="Get directions" visible={true}/>
+        desc="We are located at the corner of Dass and Nimblette Street, Enterprise, Chaguanas" blink="https://www.google.ca/maps/dir//Enterprise+Bible+Baptist+Church,+10%C2%B032'00.+61%C2%B023'11.5%22W+9th+Street+Chaguanas,+Trinidad+and+Tobago/@10.5335993,-61.3891103,17z/data=!4m17!1m7!3m6!1s0x8c35f93d3e43ebb9:0x39b332b84bd77b91!2sEnterprise+Bible+Baptist+Church!8m2!3d10.533594!4d-61.38653!16s%2Fg%2F11c5s9d092!4m8!1m0!1m5!1m1!1s0x8c35f93d3e43ebb9:0x39b332b84bd77b91!2m2!1d-61.3865458!2d10.5336485!3e3?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" bname="Get directions" visible={true}/>
         <Card 
         title="Watch our Services Online" 
         img={<FiYoutube className="icon-small"/>}
