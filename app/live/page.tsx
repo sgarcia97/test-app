@@ -10,6 +10,7 @@ const Page = () => {
     <YoutubeLive type="live"/>
     <Countdown/>
     <YoutubeLive type="upcoming"/>
+    <h2>Recent Services</h2>
     <YoutubePlaylist/>
     </Template>
   );
