@@ -8,6 +8,24 @@ const [sort, setSort] = useState('name')
 const [search, setSearch] = useState('')
 const [churchesf, setChurchesf] = useState(churches)
 
+
+useEffect(()=>{
+
+    const autoLo = ()=>{
+    const results = churches.sort((a,b)=>{
+        if(sort == "name"){
+            return (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0;
+        }
+        if(sort == "country"){
+            return (a.country > b.country) ? 1 : (a.country < b.country) ? -1 : 0;
+        }
+    })
+    autoLo()
+    setChurchesf(results);
+}
+
+},[sort])
+
 const handleSort = (event) => {
     const results = churches.sort((a,b)=>{
         if(event.target.value == "name"){
@@ -36,6 +54,7 @@ const handleSearch = (event) => {
             <div className="church-header">
                 <input placeholder="Search churches" type="search" onInput={handleSearch}/>
             <select onChange={handleSort}>
+                <option value="">Sort by</option>
                 <option value="name">Sort by Name</option>
                 <option value="country">Sort by Country</option>
             </select>
