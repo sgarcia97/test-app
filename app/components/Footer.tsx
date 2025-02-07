@@ -35,9 +35,9 @@ const Footer = (props: Footerprop) => {
                 </div>
                 <div className="footer-section">
                     <div className="footer-section-title">Resources</div>
-                    <div><Link className="def-link" href="https://www.bible.com/bible/1/GEN.1.KJV">Read the Bible</Link></div>
+                    <div><Link className="def-link" target="_blank" href="https://www.bible.com/bible/1/GEN.1.KJV">Read the Bible</Link></div>
                     <div><Link className="def-link" href="/live">Watch Online</Link></div>
-                    <div><Link className="def-link" target="_blank" href="https://fbmtt.org">FBMTT</Link></div>
+                    <div><Link className="def-link" target="_blank" href="https://https://fbmtt.org">FBMTT</Link></div>
                 </div>
                 <div className="footer-section">
                     <div className="footer-section-title">Partner Churches</div>
