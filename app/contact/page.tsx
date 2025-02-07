@@ -13,14 +13,14 @@ const Page = () => {
 <p className="page-subtitle">Welcome to Enterprise Bible Baptist Church! We are delighted that you’ve taken the time to reach out to us. Whether you have questions, prayer requests, or simply want to learn more about our church community, we are here to assist you. Please reach out to us through any of the methods listed.</p>
 <h2>Our Service Times</h2>
 <div>
-<p><span>Sundays</span></p>
+<h3>Sundays</h3>
 <li>Sunday School (All ages) - 9:00am</li>
 <li>Sunday Morning Service - 10:00am</li>  
 <li>Sunday Evening Service - 6:00pm</li>    
-<p><span>Tuesdays</span></p>
+<h3>Tuesdays</h3>
 <li>Prayer and Bible Study - 7:00pm</li>
 </div>
-
+<p></p>
 <CardWrapper center={true}>
                 <Card 
                 title="Call Us" 
