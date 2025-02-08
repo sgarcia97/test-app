@@ -11,7 +11,7 @@ const Page = () => {
       
         <Template title="Contact">
 <p className="page-subtitle">Welcome to Enterprise Bible Baptist Church! We are delighted that you’ve taken the time to reach out to us. Whether you have questions, prayer requests, or simply want to learn more about our church community, we are here to assist you. Please reach out to us through any of the methods listed.</p>
-<h2>Our Service Times</h2>
+<div>Our Service Times</div>
 <div>
 <h3>Sundays</h3>
 <li>Sunday School (All ages) - 9:00am</li>
