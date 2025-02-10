@@ -32,6 +32,10 @@
   src: url(../public/fonts/LexendDeca-VariableFont_wght.ttf);
 }
 
+.center{
+  text-align:center;
+  }
+
 body {
   color: var(--foreground);
   background: var(--background);
