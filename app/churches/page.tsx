@@ -58,7 +58,7 @@ const handleSearch = (event) => {
                 <option value="name">Sort by Name</option>
                 <option value="country">Sort by Country</option>
             </select>
-            <div>List sorted by &quot;{sort}&quot; | Searching for {search}</div>
+            <div>List sorted by &quot;{sort}&quot;</div>
             </div>
             <div className="church-wrapper">
         {
