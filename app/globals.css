@@ -580,6 +580,7 @@ iframe{
   text-transform: capitalize;
   color:#999999;
   padding-inline:15px;
+  text-align:center;
 }
 
 .video-modal{
