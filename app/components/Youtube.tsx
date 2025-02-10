@@ -48,7 +48,7 @@ export const VideoModal = (props) => {
     <div className="video-modal">
       <iframe className="iframe" width="auto" height="100%" src={`https://www.youtube.com/embed/${props.data.vid}?si=rwSuSk6NzK1rySop`} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       <div className="video-title">{props.data.title}</div>
-<div>{props.data.desc}</div>
+<div className="center">{props.data.desc}</div>
     <div className="close" onClick={()=>props.vis(false)}><TfiClose className="close-icon"/></div>
     </div>
     )
