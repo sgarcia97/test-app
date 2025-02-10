@@ -46,11 +46,11 @@ export const Modall = (props: ModalProps) => {
             <div className="modal">
                 <NavLink link="/" title="Home"/>
                 <NavLink link="/about" title="About us"/>
-                <NavLink link="/beliefs" title="Beliefs"/>
+                <NavLink link="/beliefs" title="Our Beliefs"/>
                 <NavLink link="/beliefs/gospel" title="The Gospel"/>
                 <NavLink link="/ministries" title="Ministries"/>
                 <NavLink link="/live" title="Live Services"/>
-                <NavLink link="/contact" title="Contact Us"/>
+                <NavLink link="/contact" title="Contact us"/>
                 <NavLink link="/churches" title="Partner Churches"/>
                 <div className="close" onClick={props.cm}><TfiClose className="close-icon"/></div>
             </div>
