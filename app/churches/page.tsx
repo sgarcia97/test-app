@@ -4,7 +4,7 @@ import Template from "../components/Template"
 import {useState, useEffect} from "react"
 import Link from "next/link"
 const Page = () => {
-const [sort, setSort] = useState('name')
+const [sort, setSort] = useState('')
 const [search, setSearch] = useState('')
 const [churchesf, setChurchesf] = useState(churches)
 
