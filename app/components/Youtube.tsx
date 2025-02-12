@@ -11,7 +11,6 @@ export const Youtube = (props) => {
               <img className="video-image" src={props.data.img} alt="" ></img>
               <div className="video-content">
               <div className="video-title">{props.data.title}</div>
-              <div className="video-desc">{props.data.desc}</div>
               <div className="video-date">{props.data.date}</div>
               </div>
             </div>
